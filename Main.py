@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import NoSuchElementException
 import time
+import getpass
 
 driver = webdriver.Firefox()
 driver.get('http://c.mi.com/')
@@ -19,7 +20,8 @@ email = driver.find_element_by_xpath("//input[@id='username' or @name='email']")
 email.send_keys('Email id')
 print("Email Id entered...")
 password = driver.find_element_by_xpath("//input[@id='pwd']")
-password.send_keys('*****password here*****')
+password_input = getpass.getpass("Enter your password:")
+password.send_keys(password_input)
 print("Password entered...")
 button = driver.find_element_by_xpath("//input[@id='login-button']")
 button.click()
