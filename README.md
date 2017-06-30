@@ -4,7 +4,8 @@
 
 This is a python script uses selenium module in python to automate the thread posting.
 
-for requirements use pip install requirement's.txt
+for requirements use
+`pip install requirement's.txt`
 
 You can see it [here.](https://www.youtube.com/watch?v=gWRF7-_xhx0)
 
