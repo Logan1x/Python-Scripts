@@ -5,15 +5,15 @@ This is a python script uses selenium module in python to automate the thread po
 # Execution-
 Make sure you have git installed then,
 
-`git clone https://github.com/Logan1x/MI_comm_thread_Bot.git`
+`$ git clone https://github.com/Logan1x/MI_comm_thread_Bot.git`
 
 to install requirements use-
 
-`pip install requirement's.txt`
+`$ pip install requirement's.txt`
 
 and then,
 
-`python Main.py`
+`$ python Main.py`
 
 You can see execution [here.](https://www.youtube.com/watch?v=gWRF7-_xhx0)
 
