@@ -1,8 +1,10 @@
 # MI_comm_thread_Bot
 
-
-
 This is a python script uses selenium module in python to automate the thread posting.
+
+# Execution-
+
+`git clone 
 
 for requirements use
 `pip install requirement's.txt`
