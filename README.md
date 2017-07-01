@@ -56,3 +56,9 @@ Distributed under the GNU GENERAL PUBLIC LICENSE license. See ``LICENSE`` for mo
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
+
+## Contributors
+
+The following people helped in creating the above content.
+
+* <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
