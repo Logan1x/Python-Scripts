@@ -45,7 +45,7 @@ pip install requiremnt.txt
 
 Khushal Sharma – [@Khushal](https://twitter.com/herkuch) – sharmakhushal78@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the GNU GENERAL PUBLIC LICENSE license. See ``LICENSE`` for more information.
 
 [https://github.com/Logan1x/](https://github.com/Logan1x/)
 
