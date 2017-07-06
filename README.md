@@ -47,7 +47,7 @@ Khushal Sharma – [@Khushal](https://twitter.com/herkuch) – sharmakhushal78@g
 
 Distributed under the GNU GENERAL PUBLIC LICENSE license. See ``LICENSE`` for more information.
 
-[https://github.com/Logan1x/](https://github.com/Logan1x/)
+[Logan1x](https://github.com/Logan1x/)
 
 ## Contributing
 
