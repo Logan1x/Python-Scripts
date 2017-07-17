@@ -1,4 +1,4 @@
-# Locate-Me.py
+# getmylocation.py
 
 Run this script and it will locate you. 
 
