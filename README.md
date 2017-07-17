@@ -33,7 +33,7 @@ python filename.py
 For development setup go to script directory and run
 
 ```sh
-pip install Requirement's.txt
+pip install -r Requirement's.txt
 ```
 
 ## Release History
