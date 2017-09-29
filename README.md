@@ -112,3 +112,4 @@ Distributed under the GNU GENERAL PUBLIC LICENSE license. See ``LICENSE`` for mo
 The following people helped in creating the above content.
 
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
+* <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
