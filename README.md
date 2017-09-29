@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 Khushal Sharma – [@Khushal](https://twitter.com/herkuch) – sharmakhushal78@gmail.com
 
-Distributed under the GNU GENERAL PUBLIC LICENSE license. See ``LICENSE`` for more information.
+Distributed under the MIT LICENSE license. See ``LICENSE`` for more information.
 
 [Logan1x](https://github.com/Logan1x/)
 
