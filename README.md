@@ -94,7 +94,7 @@ In case your browser stoped working delete/comment the following line in the scr
 
 Khushal Sharma – [@Khushal](https://twitter.com/herkuch) – sharmakhushal78@gmail.com
 
-Distributed under the GNU GENERAL PUBLIC LICENSE license. See ``LICENSE`` for more information.
+Distributed under the MIT LICENSE license. See ``LICENSE`` for more information.
 
 [Logan1x](https://github.com/Logan1x/)
 
