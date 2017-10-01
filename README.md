@@ -89,6 +89,14 @@ python youtube-bot-linux.py
 python youtube-bot-windows.py
 ```
 
+
+### Blog Reader 
+
+BLog Reader is the terminal reader that scrapes the article from (planet dgplug)[http://planet.dgplug.org/] and displays it on the terminal. 
+
+It seprates the content accrding to the screen size.
+
+
 #### NOTE:  
 In case your browser stoped working delete/comment the following line in the script.  
 #### _Linux_
@@ -125,3 +133,4 @@ The following people helped in creating the above content.
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
 * <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
 * <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
+*<a href="https://github.com/Pradhvan"> target="_blank">Pradhvan Bisht</a>
