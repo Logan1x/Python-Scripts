@@ -99,7 +99,7 @@ In case your browser stoped working delete/comment the following line in the scr
 
 ### Blog Reader 
 
-BLog Reader is the terminal reader that scrapes the article from [planet dgplug](http://planet.dgplug.org/) and displays it on the terminal. 
+Blog Reader is the terminal reader that scrapes the article from [planet dgplug](http://planet.dgplug.org/) and displays it on the terminal. 
 
 It seprates the content accrding to the screen size.
 
