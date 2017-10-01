@@ -16,6 +16,17 @@ git clone https://github.com/Logan1x/Python-Scripts.git
 cd Python-Scripts
 ```
 
+### Meme Density
+This script tells you the amount of memes in your facebook feed
+
+
+```bash
+pip install memedensity 
+
+memedensity
+```
+
+
 ## Usage
 ### Facebook Auto Post
 This is python script that log in into facebook and post the status.  
@@ -113,3 +124,4 @@ The following people helped in creating the above content.
 
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
 * <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
+* <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
