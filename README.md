@@ -1,40 +1,89 @@
-# Python Script's
-> This Repo is a collection of Various python script's.
+# Python Scripts
 
-In this repo there are different kinds of python scripts for their respective uses.These all are open sourced and you can use them in any form for free.
+> This Repo is a collection of Various python scripts.
+
+In this repo there are different kinds of python scripts for their respective uses. These all are open sourced and you can use them in any form for free.
 
 
 ## Installation
 
-Make sure you've already git installed and then for
+Make sure you've already git installed. Then you can run the following commands to get the scripts on your computer:
 
-OS X & Linux:
+OS X, Linux and Windows:
 
-```sh
+```bash
 git clone https://github.com/Logan1x/Python-Scripts.git
-```
-and then
-```sh
-python filename.py
+cd Python-Scripts
 ```
 
-Windows:
+## Usage
+### Facebook Auto Post
+This is python script that log in into facebook and post the status.  
 
-```sh
-git clone https://github.com/Logan1x/Python-Scripts.git
+You can see live execution of this script [here](https://www.youtube.com/watch?v=YES16mVB0lQ).
+
+
+```bash
+pip install -r facebook-auto-post.requirements.txt
+python facebook-auto-post.py
 ```
-and then go to directory in which your file have and then 
-```sh
-python filename.py
+
+### Locate Me
+Run this script and it will locate you. 
+
+This will tell you your 
+
+1. City
+2. Region
+3. Country
+4. Latitude & Longitude.
+5. Your Internet Service Provider  
+  
+
+This uses [Checkip](http://checkip.dyndns.com/) and [ipinfo.io](http://ipinfo.io/developers).
+
+```bash
+python locate-me.py
 ```
 
-## Development setup
+### Mi Community Bot
+This python script uses selenium module in python to automate the thread posting.  
 
-For development setup go to script directory and run
+You can see live execution of this script [here.](https://www.youtube.com/watch?v=gWRF7-_xhx0)
 
-```sh
-pip install -r requirements.txt
+If you want to understand this code you can visit [here.](https://l0gan1x.quora.com/1-Python-Thread-Posting-Bot-Using-selenium-module?srid=Ic2Y)
+
+```bash
+pip install -r mi-community-bot.requirements.txt
+python mi-community-bot.py
 ```
+
+### Password Strength Checker
+This code checks for your password strength. For the right password, password must contain mixture of an upper case letters, an digit (including 0-9), and a special characters with lower case letters.
+
+
+```bash
+python password-strength-checker.py
+```
+
+### YouTube Bot
+This is a simple python script that increases your video count/ views.
+Log out from all google accounts and run this.
+
+```bash
+# For Linux Users
+python youtube-bot-linux.py
+
+# For Windows Users
+python youtube-bot-windows.py
+```
+
+#### NOTE:  
+In case your browser stoped working delete/comment the following line in the script.  
+#### _Linux_
+ `os.system(" killall -9 " + brow)`
+#### _Windows_
+ `os.system("TASKKILL /F /IM " + brow + ".exe")`
 
 ## Release History
 
@@ -63,3 +112,4 @@ Distributed under the MIT LICENSE license. See ``LICENSE`` for more information.
 The following people helped in creating the above content.
 
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
+* <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
