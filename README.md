@@ -89,6 +89,13 @@ python youtube-bot-linux.py
 python youtube-bot-windows.py
 ```
 
+#### NOTE:  
+In case your browser stoped working delete/comment the following line in the script.  
+#### _Linux_
+ `os.system(" killall -9 " + brow)`
+#### _Windows_
+ `os.system("TASKKILL /F /IM " + brow + ".exe")`
+
 
 ### Blog Reader 
 
@@ -96,13 +103,6 @@ BLog Reader is the terminal reader that scrapes the article from [planet dgplug]
 
 It seprates the content accrding to the screen size.
 
-
-#### NOTE:  
-In case your browser stoped working delete/comment the following line in the script.  
-#### _Linux_
- `os.system(" killall -9 " + brow)`
-#### _Windows_
- `os.system("TASKKILL /F /IM " + brow + ".exe")`
 
 ## Release History
 
