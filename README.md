@@ -92,7 +92,7 @@ python youtube-bot-windows.py
 
 ### Blog Reader 
 
-BLog Reader is the terminal reader that scrapes the article from (planet dgplug)[http://planet.dgplug.org/] and displays it on the terminal. 
+BLog Reader is the terminal reader that scrapes the article from [planet dgplug](http://planet.dgplug.org/) and displays it on the terminal. 
 
 It seprates the content accrding to the screen size.
 
