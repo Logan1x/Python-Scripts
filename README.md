@@ -133,4 +133,4 @@ The following people helped in creating the above content.
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
 * <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
 * <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
-*<a href="https://github.com/Pradhvan"> target="_blank">Pradhvan Bisht</a>
+* <a href="https://github.com/Pradhvan">Pradhvan Bisht</a>
