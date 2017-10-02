@@ -16,3 +16,6 @@ and then,
 
 
 You can see live execution [here](https://www.youtube.com/watch?v=YES16mVB0lQ).
+
+
+ If you want to understand this code you can visit [here](https://medium.com/@Logan1x/facebook-posting-bot-98f20ff5da44).

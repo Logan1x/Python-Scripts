@@ -63,3 +63,4 @@ Distributed under the MIT LICENSE license. See ``LICENSE`` for more information.
 The following people helped in creating the above content.
 
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
+* <a href="https://github.com/toonarmycaptain" target="_blank">David Antonini</a>
