@@ -117,7 +117,7 @@ This script is useful to show a way to approximate the value of pi using a Monte
 
 To see different approximations you just need to modify the argument passed to the main function.
 
-```bash`
+```bash
 python pi.py
 ```
 
