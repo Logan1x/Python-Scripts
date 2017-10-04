@@ -103,6 +103,13 @@ Blog Reader is the terminal reader that scrapes the article from [planet dgplug]
 
 It seprates the content accrding to the screen size.
 
+### Find Large Files
+
+Searches a file location and subdirectories for files larger than a given size.
+Useful for phones which might hide files in FileExplorer, but allow use as flash memory.
+Directly prints results if run directly.
+May also be imported, yielding results one by one.
+
 
 ## Release History
 
@@ -134,3 +141,4 @@ The following people helped in creating the above content.
 * <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
 * <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
 * <a href="https://github.com/Pradhvan">Pradhvan Bisht</a>
+* <a href="https://github.com/toonarmycaptain" target="_blank">David Antonini</a>
