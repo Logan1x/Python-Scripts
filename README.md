@@ -111,6 +111,25 @@ Directly prints results if run directly.
 May also be imported, yielding results one by one.
 
 
+### Approximating *pi*
+
+This script is useful to show a way to approximate the value of pi using a Monte Carlo method. It is also optimized using the `@jit` (*just-in-time*) decorator from the [numba](https://numba.pydata.org/) library.
+
+To see different approximations you just need to modify the argument passed to the main function.
+
+```bash`
+python pi.py
+```
+
+
+### Plotting a function
+
+This script contains an example of plotting a function using [`matplotlib`](http://matplotlib.org/). Feel free to modify the value of `y` to obtain different functions that depend on `x`.
+
+```bash
+python plot_example.py
+```
+
 ## Release History
 
 * 0.0.1
