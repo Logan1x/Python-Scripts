@@ -130,6 +130,18 @@ This script contains an example of plotting a function using [`matplotlib`](http
 python plot_example.py
 ```
 
+### Bulk add users to Twitter list
+
+Simple script helps you mass add users to your twitter list to follow (Ex: Bitcoin/Altcoins official account, news, traders...)
+
+- Prepare list screen names
+- Setup your app and get an access token
+
+```bash
+pip install twitter
+python bulk_add_twitter_list.py
+```
+
 ## Release History
 
 * 0.0.1
@@ -161,3 +173,4 @@ The following people helped in creating the above content.
 * <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
 * <a href="https://github.com/Pradhvan">Pradhvan Bisht</a>
 * <a href="https://github.com/toonarmycaptain" target="_blank">David Antonini</a>
+* <a href="https://github.com/vigov5" target="_blank">Nguyen Anh Tien</a>
