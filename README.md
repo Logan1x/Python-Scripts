@@ -1,4 +1,4 @@
-# Python Scripts
+﻿# Python Scripts
 
 > This Repo is a collection of Various python scripts.
 
@@ -141,6 +141,13 @@ pip install twitter
 python bulk_add_twitter_list.py
 ```
 
+### Expense Manager
+Simple GUI program which helps you calculate your expenses, monitor them just through mouse clicks. All you have to do is run the script and choose an option from the menu which will displayed when you run the script. Enter Your Expenses as eg: "Biscuits Rs 15" <press enter> "<item> rs <amount>" ignore the quotes.
+
+```bash
+python expense_manger.py
+```
+
 ## Release History
 
 * 0.0.1
@@ -173,3 +180,4 @@ The following people helped in creating the above content.
 * <a href="https://github.com/Pradhvan">Pradhvan Bisht</a>
 * <a href="https://github.com/toonarmycaptain" target="_blank">David Antonini</a>
 * <a href="https://github.com/vigov5" target="_blank">Nguyen Anh Tien</a>
+*<a href="https://github.com/akshitgrover" target="_blank">Akshit Grover</a>
