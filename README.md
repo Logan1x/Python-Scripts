@@ -150,7 +150,7 @@ python bulk_add_twitter_list.py
 
 Khushal Sharma – [@Khushal](https://twitter.com/herkuch) – sharmakhushal78@gmail.com
 
-Distributed under the MIT LICENSE license. See ``LICENSE`` for more information.
+Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/Logan1x/Python-Scripts/blob/master/LICENSE) for more information.
 
 [Logan1x](https://github.com/Logan1x/)
 
