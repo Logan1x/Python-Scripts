@@ -142,7 +142,7 @@ python bulk_add_twitter_list.py
 ```
 
 ### Expense Manager
-SImple GUI program which helps you calculate your expenses, monitor them just through mouse clicks. All you have to do is run the script and choose an option from the menu which will displayed when you run the script. Enter Your Expenses as eg: "Biscuits Rs 15" <press enter> "<item> rs <amount>" ignore the quotes.
+Simple GUI program which helps you calculate your expenses, monitor them just through mouse clicks. All you have to do is run the script and choose an option from the menu which will displayed when you run the script. Enter Your Expenses as eg: "Biscuits Rs 15" <press enter> "<item> rs <amount>" ignore the quotes.
 
 ```bash
 python expense_manger.py
