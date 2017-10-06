@@ -147,6 +147,11 @@ Simple GUI program which helps you calculate your expenses, monitor them just th
 ```bash
 python expense_manger.py
 ```
+### Caesar Cipher
+Encrypts or Decrypts any message you want, simply enter the message and the rotation number
+```bash
+python caesar_cipher.py
+```
 
 ## Release History
 
@@ -180,4 +185,5 @@ The following people helped in creating the above content.
 * <a href="https://github.com/Pradhvan">Pradhvan Bisht</a>
 * <a href="https://github.com/toonarmycaptain" target="_blank">David Antonini</a>
 * <a href="https://github.com/vigov5" target="_blank">Nguyen Anh Tien</a>
-*<a href="https://github.com/akshitgrover" target="_blank">Akshit Grover</a>
+* <a href="https://github.com/akshitgrover" target="_blank">Akshit Grover</a>
+* <a href="https://github.com/Sharanpai" target="_blank">Sharan Pai</a>
