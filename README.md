@@ -13,7 +13,7 @@ OS X, Linux and Windows:
 
 ```bash
 git clone https://github.com/Logan1x/Python-Scripts.git
-cd Python-Scripts
+cd Python-Scripts/bin
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ This script tells you the amount of memes in your facebook feed
 
 
 ```bash
-pip install memedensity 
+pip install memedensity
 
 memedensity
 ```
@@ -39,16 +39,16 @@ python facebook-auto-post.py
 ```
 
 ### Locate Me
-Run this script and it will locate you. 
+Run this script and it will locate you.
 
-This will tell you your 
+This will tell you your
 
 1. City
 2. Region
 3. Country
 4. Latitude & Longitude.
 5. Your Internet Service Provider  
-  
+
 
 This uses [Checkip](http://checkip.dyndns.com/) and [ipinfo.io](http://ipinfo.io/developers).
 
@@ -96,9 +96,9 @@ In case your browser stoped working delete/comment the following line in the scr
  `os.system("TASKKILL /F /IM " + brow + ".exe")`
 
 
-### Blog Reader 
+### Blog Reader
 
-Blog Reader is the terminal reader that scrapes the article from [planet dgplug](http://planet.dgplug.org/) and displays it on the terminal. 
+Blog Reader is the terminal reader that scrapes the article from [planet dgplug](http://planet.dgplug.org/) and displays it on the terminal.
 
 It seprates the content accrding to the screen size.
 
