@@ -27,16 +27,6 @@ def decrypt(n, ciphertext):
 
     return result
 
-
-def show_result(plaintext, n):
-    """Generate a resulting cipher with elements shown"""
-    encrypted = encrypt(n, plaintext)
-    decrypted = decrypt(n, encrypted)
-
-    print ('Rotation: %s' % n)
-    print ('Plaintext: %s' % plaintext)
-    print ('Encrytped: %s' % encrypted)
-    print ('Decrytped: %s' % decrypted)
 print("Encrypt or decrypt?")
 ans = input()
 ans = ans.lower()
@@ -50,5 +40,3 @@ if ans == 'encrypt':
 else:
     ret = decrypt(nn,k)
     print ('Decrytped: %s' % ret)
-
-#show_result(k,int(nn))
