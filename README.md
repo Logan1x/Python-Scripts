@@ -1,4 +1,4 @@
-# Python Scripts
+﻿# Python Scripts
 
 > This Repo is a collection of Various python scripts.
 
@@ -13,7 +13,7 @@ OS X, Linux and Windows:
 
 ```bash
 git clone https://github.com/Logan1x/Python-Scripts.git
-cd Python-Scripts
+cd Python-Scripts/bin
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ This script tells you the amount of memes in your facebook feed
 
 
 ```bash
-pip install memedensity 
+pip install memedensity
 
 memedensity
 ```
@@ -39,16 +39,16 @@ python facebook-auto-post.py
 ```
 
 ### Locate Me
-Run this script and it will locate you. 
+Run this script and it will locate you.
 
-This will tell you your 
+This will tell you your
 
 1. City
 2. Region
 3. Country
 4. Latitude & Longitude.
 5. Your Internet Service Provider  
-  
+
 
 This uses [Checkip](http://checkip.dyndns.com/) and [ipinfo.io](http://ipinfo.io/developers).
 
@@ -96,9 +96,9 @@ In case your browser stoped working delete/comment the following line in the scr
  `os.system("TASKKILL /F /IM " + brow + ".exe")`
 
 
-### Blog Reader 
+### Blog Reader
 
-Blog Reader is the terminal reader that scrapes the article from [planet dgplug](http://planet.dgplug.org/) and displays it on the terminal. 
+Blog Reader is the terminal reader that scrapes the article from [planet dgplug](http://planet.dgplug.org/) and displays it on the terminal.
 
 It seprates the content accrding to the screen size.
 
@@ -141,6 +141,18 @@ pip install twitter
 python bulk_add_twitter_list.py
 ```
 
+### Expense Manager
+Simple GUI program which helps you calculate your expenses, monitor them just through mouse clicks. All you have to do is run the script and choose an option from the menu which will displayed when you run the script. Enter Your Expenses as eg: "Biscuits Rs 15" <press enter> "<item> rs <amount>" ignore the quotes.
+
+```bash
+python expense_manger.py
+```
+### Caesar Cipher
+Encrypts or Decrypts any message you want, simply enter the message and the rotation number
+```bash
+python caesar_cipher.py
+```
+
 ## Release History
 
 * 0.0.1
@@ -173,3 +185,5 @@ The following people helped in creating the above content.
 * <a href="https://github.com/Pradhvan">Pradhvan Bisht</a>
 * <a href="https://github.com/toonarmycaptain" target="_blank">David Antonini</a>
 * <a href="https://github.com/vigov5" target="_blank">Nguyen Anh Tien</a>
+* <a href="https://github.com/akshitgrover" target="_blank">Akshit Grover</a>
+* <a href="https://github.com/Sharanpai" target="_blank">Sharan Pai</a>
