@@ -158,6 +158,12 @@ It is a simple program to encode and decode images, which helps to reduce and ha
 python image_encoder.py
 ```
 
+### Missionaires And Cannibals Problem
+It is a simple program to mimic Missionaries And Cannibals River Crossing Problem.
+```bash
+python missionaries_and_cannibals_problem.py
+```
+
 ## Release History
 
 * 0.0.1
