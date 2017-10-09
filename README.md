@@ -152,6 +152,11 @@ Encrypts or Decrypts any message you want, simply enter the message and the rota
 ```bash
 python caesar_cipher.py
 ```
+### Image Encoder
+It is a simple program to encode and decode images, which helps to reduce and handle images on server, as it is convertedto base64 address.
+```bash
+python image_encoder.py
+```
 
 ## Release History
 
