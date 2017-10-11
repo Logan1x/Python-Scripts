@@ -191,6 +191,8 @@ Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/
 
 [Logan1x](https://github.com/Logan1x/)
 
+
+
 ## Contributing
 
 1. Fork it (<https://github.com/Logan1x/Python-Scripts/fork>)
@@ -212,3 +214,6 @@ The following people helped in creating the above content.
 * <a href="https://github.com/vigov5" target="_blank">Nguyen Anh Tien</a>
 * <a href="https://github.com/akshitgrover" target="_blank">Akshit Grover</a>
 * <a href="https://github.com/Sharanpai" target="_blank">Sharan Pai</a>
+
+
+### If you like the project give a star    <img src="Selection_008.png">
