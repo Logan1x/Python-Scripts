@@ -174,6 +174,8 @@ python end_to_end.py
 ### Server And Client
 It is simple client server communication script, will add more functionality in future.
 ```bash
+cd server_client
+
 python client.py
 python server.py
 ```
