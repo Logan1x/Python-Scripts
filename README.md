@@ -187,6 +187,13 @@ It then calculates the area using two methods, the Simpson method and the Trapez
 python integrate-graph.py
 ```
 
+### Integrate to find area of a graph
+The script takes a given graph along with the range within which the area is to be calculated.
+It then calculates the area using two methods, the Simpson method and the Trapezoid method and displays the results on a graph.
+```bash
+python integrate-graph.py
+```
+
 
 ## Release History
 
@@ -225,6 +232,7 @@ The following people helped in creating the above content.
 * <a href="https://github.com/akshitgrover" target="_blank">Akshit Grover</a>
 * <a href="https://github.com/Sharanpai" target="_blank">Sharan Pai</a>
 * <a href="https://github.com/MadhavBahlMD" target="_blank">Madhav Bahl</a>
+* <a href="https://github.com/ishank011" target="_blank">Ishank Arora</a>
 
 
 ### If you like the project give a star  <img src="Selection_008.png" alt="Star button" align="top">
