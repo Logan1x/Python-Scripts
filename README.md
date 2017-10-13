@@ -180,6 +180,13 @@ python client.py
 python server.py
 ```
 
+### Intgrate to find area of a graph
+The script takes a given graph along with the range within which the area is to be calculated.
+It then calculates the area using two methods, the Simpson method and the Trapezoid method and displays the results on a graph.
+```bash
+python integrate-graph.py
+```
+
 
 ## Release History
 
