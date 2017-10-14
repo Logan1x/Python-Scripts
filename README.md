@@ -102,6 +102,10 @@ Blog Reader is the terminal reader that scrapes the article from [planet dgplug]
 
 It seprates the content accrding to the screen size.
 
+```bash
+python Blog_reader.py
+```
+
 ### Find Large Files
 
 Searches a file location and subdirectories for files larger than a given size.
