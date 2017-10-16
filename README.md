@@ -234,4 +234,4 @@ The following people helped in creating the above content.
 * <a href="https://github.com/vis2797" target="_blank">Vishal Sharma</a>
 
 
-### If you like the project give a star  <img src="Selection_008.png" alt="Star button" align="top">
+### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts)
