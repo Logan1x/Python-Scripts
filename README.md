@@ -192,6 +192,11 @@ It then calculates the area using two methods, the Simpson method and the Trapez
 python integrate-graph.py
 ```
 
+### Convert an image in for of 64*64*3 numpy array data
+The script takes an image in a particular directory and resizes it to a 64*64 pixel image and then converts it to a data.
+```bash
+python ImagetoData.py
+```
 
 ## Release History
 
@@ -232,6 +237,6 @@ The following people helped in creating the above content.
 * <a href="https://github.com/MadhavBahlMD" target="_blank">Madhav Bahl</a>
 * <a href="https://github.com/ishank011" target="_blank">Ishank Arora</a>
 * <a href="https://github.com/vis2797" target="_blank">Vishal Sharma</a>
-
+* <a href="https://github.com/apuayush" target="_blank">Apurva Nitanjay</a>
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts)
