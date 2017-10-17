@@ -181,6 +181,12 @@ python client.py
 python server.py
 ```
 
+### Get_Lyrics
+A python script to get lyrics of all the songs in current directory and save them to single 'lyrics.txt' file.
+```bash
+python Get_Lyrics.py
+```
+
 
 ## Release History
 
