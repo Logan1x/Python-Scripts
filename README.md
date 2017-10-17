@@ -181,7 +181,7 @@ python server.py
 ```
 
 
-### link_finder
+### Link Finder
 A simple selenium based script for scraping link from a YouTube Playlist mainly for more than 100 videos.
 ```bash
 python link_finder.py
@@ -225,6 +225,6 @@ The following people helped in creating the above content.
 * <a href="https://github.com/akshitgrover" target="_blank">Akshit Grover</a>
 * <a href="https://github.com/Sharanpai" target="_blank">Sharan Pai</a>
 * <a href="https://github.com/MadhavBahlMD" target="_blank">Madhav Bahl</a>
-
+* <a href="https://github.com/prashantgo" target="_blank">Prashant Goyal</a>
 
 ### If you like the project give a star    <img src="Selection_008.png">
