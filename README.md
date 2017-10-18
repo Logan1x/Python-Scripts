@@ -185,13 +185,23 @@ python end_to_end.py
 ```
 
 
+
 * ### Server And Client
+
 It is simple client server communication script, will add more functionality in future.
 ```bash
 cd server_client
 python client.py
 python server.py
 ```
+
+
+### Get_Lyrics
+A python script to get lyrics of all the songs in current directory and save them to single 'lyrics.txt' file.
+```bash
+python Get_Lyrics.py
+```
+
 
 * ### Integrate to find area of a graph
 The script takes a given graph along with the range within which the area is to be calculated.
@@ -205,6 +215,7 @@ The script takes an image in a particular directory and resizes it to a 64*64 pi
 ```bash
 python ImagetoData.py
 ```
+
 
 ## Release History
 
