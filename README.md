@@ -180,6 +180,12 @@ python client.py
 python server.py
 ```
 
+### Link Finder
+A selenium based script for scraping links from a YouTube Playlist.
+```bash
+pip install -r link_finder.requirements.txt
+python link_finder.py
+```
 
 ## Release History
 
