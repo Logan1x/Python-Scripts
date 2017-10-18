@@ -28,6 +28,14 @@ pip install memedensity
 memedensity
 ```
 
+* ### Handy offline dictionary
+A tiny offline dictionary app based on nltk wordnet and pyqt5
+```bash
+cd dictionary
+python app.py
+```
+
+
 * ### Facebook Auto Post
 This is python script that log in into facebook and post the status.  
 
@@ -238,5 +246,6 @@ The following people helped in creating the above content.
 * <a href="https://github.com/ishank011" target="_blank">Ishank Arora</a>
 * <a href="https://github.com/vis2797" target="_blank">Vishal Sharma</a>
 * <a href="https://github.com/apuayush" target="_blank">Apurva Nitanjay</a>
+* <a href="https://github.com/SuryaThiru" target="_blank">Surya K</a>
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts)
