@@ -206,6 +206,36 @@ The script takes an image in a particular directory and resizes it to a 64*64 pi
 python ImagetoData.py
 ```
 
+### Highcharts loader
+It is a simple program that can load charts from [highcharts](www.highcharts.com).
+After loading chart you can save it to file or embed it into your html page in base64 format.
+```python
+from highchart_loader import ChartLoader, Options
+
+options = Options(from_file='options.json')
+chart = ChartLoader(options)
+chart.save_to_file('result.png')
+```
+
+options.json example:
+```json
+{
+    "chart": {
+        "type": "bar"
+    },
+    "title": {
+        "text": "Which channels are driving engagement?"
+    },
+    "xAxis": {
+        "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                       "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    },
+    "series": [{
+        "data": [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+    }]
+}
+```
+
 ## Release History
 
 * 0.0.1
