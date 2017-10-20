@@ -193,21 +193,9 @@ python server.py
 ```
 
 
-* ### YouTube Bot
-This is a simple python script that increases your video count/ views.
-Log out from all google accounts and run this.
-
-```bash
-# For Linux Users
-python youtube-bot-linux.py
-
-# For Windows Users
-python youtube-bot-windows.py
-```
-
 * ### Video-downloader v1.1
 
-## About
+### About
 
 This file allows the user to download videos off of the web.
 
@@ -249,8 +237,20 @@ https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
 
 #### Commands
 
-Just run the script! Videos downloaded in same folder as the script.
+Just run the script and follow the interface! Videos downloaded in same folder as the script.
 
+
+* ### YouTube Bot
+This is a simple python script that increases your video count/ views.
+Log out from all google accounts and run this.
+
+```bash
+# For Linux Users
+python youtube-bot-linux.py
+
+# For Windows Users
+python youtube-bot-windows.py
+```
 
 #### NOTE:  
 In case your browser stoped working delete/comment the following line in the script.  
