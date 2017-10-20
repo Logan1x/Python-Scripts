@@ -1,4 +1,5 @@
-﻿# Python Scripts
+# Python Scripts
+
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 
 > This Repo is a collection of Various python scripts.
@@ -304,4 +305,4 @@ The following people helped in creating the above content.
 * <a href="https://github.com/SuryaThiru" target="_blank">Surya K</a>
 * <a href="https://github.com/szepnapot" target="_blank">Peter L.</a>
 
-### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts)
+### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
