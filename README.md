@@ -192,6 +192,17 @@ python client.py
 python server.py
 ```
 
+* ### FTP Download File
+A simple application to download a file via FTP with the given remote and local path
+Parameters:
+ * -hh hostname
+ * -u  username
+ * -p  password
+ * -rd remote directory
+ * -ld local directory
+```bash
+python ftp_download_file.py
+```
 
 * ### Video-downloader v1.1
 
