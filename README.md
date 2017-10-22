@@ -193,18 +193,26 @@ python server.py
 ```
 
 
+* ### Tweetload
+Download latest tweets (default: up to 4000) from a specific twitter user. The script will create a file with one tweet per line, stripped from mentions, hashtags and links.
+<br>
+For that to work, create a json file with your twitter credentials (see source) and define the twitter user in source code.  
+```bash
+python3 tweetload.py
+```
+
 * ### Video-downloader v1.1
 
 ### About
 
 This file allows the user to download videos off of the web.
 
-as of version 1 the user is able to download highquality videos as a playlist or single file as well as audio files from the supported 
+as of version 1 the user is able to download highquality videos as a playlist or single file as well as audio files from the supported
 
 websites given here http://rg3.github.io/youtube-dl/supportedsites.html are supported.
 
 More features will be added in the future iterations of the project.
-a simple video downloader using youtube-dl Library, a starter script for making use 
+a simple video downloader using youtube-dl Library, a starter script for making use
 of youtube-dl.
 
 ## Requirements
