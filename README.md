@@ -270,6 +270,12 @@ In case your browser stoped working delete/comment the following line in the scr
  `os.system("TASKKILL /F /IM " + brow + ".exe")`
 
 
+* ### Fetch HTML
+This script fetch html response from the provided url and parse xml tag to get only text content and print out.
+
+```bash
+python fetch_html.py https://github.com
+```
 
 
 ## Release History
@@ -315,5 +321,6 @@ The following people helped in creating the above content.
 * <a href="https://github.com/SuryaThiru" target="_blank">Surya K</a>
 * <a href="https://github.com/szepnapot" target="_blank">Peter L.</a>
 * <a href="https://github.com/ehnydeel" target="_blank">Andreas K.</a>
+* <a href="https://github.com/zinuzoid" target="_blank">Jetsada Machom</a>
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
