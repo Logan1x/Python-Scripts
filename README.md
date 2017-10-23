@@ -91,6 +91,17 @@ Useful for phones which might hide files in FileExplorer, but allow use as flash
 Directly prints results if run directly.
 May also be imported, yielding results one by one.
 
+* ### FTP Download File
+A simple application to download a file via FTP with the given remote and local path
+Parameters:
+ * -hh hostname
+ * -u  username
+ * -p  password
+ * -rd remote directory
+ * -ld local directory
+```bash
+python ftp_download_file.py
+```
 
 * ### Handy offline dictionary
 A tiny offline dictionary app based on nltk wordnet and pyqt5
@@ -200,6 +211,7 @@ For that to work, create a json file with your twitter credentials (see source) 
 ```bash
 python3 tweetload.py
 ```
+
 
 * ### Video-downloader v1.1
 
@@ -312,5 +324,7 @@ The following people helped in creating the above content.
 * <a href="https://github.com/apuayush" target="_blank">Apurva Nitanjay</a>
 * <a href="https://github.com/SuryaThiru" target="_blank">Surya K</a>
 * <a href="https://github.com/szepnapot" target="_blank">Peter L.</a>
+* <a href="https://github.com/ehnydeel" target="_blank">Andreas K.</a>
+* <a href="https://github.com/pr0me" target="_blank">Lukas S.</a>
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
