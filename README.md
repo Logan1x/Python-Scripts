@@ -91,6 +91,17 @@ Useful for phones which might hide files in FileExplorer, but allow use as flash
 Directly prints results if run directly.
 May also be imported, yielding results one by one.
 
+* ### FTP Download File
+A simple application to download a file via FTP with the given remote and local path
+Parameters:
+ * -hh hostname
+ * -u  username
+ * -p  password
+ * -rd remote directory
+ * -ld local directory
+```bash
+python ftp_download_file.py
+```
 
 * ### Handy offline dictionary
 A tiny offline dictionary app based on nltk wordnet and pyqt5
@@ -190,18 +201,6 @@ It is simple client server communication script, will add more functionality in 
 cd server_client
 python client.py
 python server.py
-```
-
-* ### FTP Download File
-A simple application to download a file via FTP with the given remote and local path
-Parameters:
- * -hh hostname
- * -u  username
- * -p  password
- * -rd remote directory
- * -ld local directory
-```bash
-python ftp_download_file.py
 ```
 
 * ### Video-downloader v1.1
