@@ -103,6 +103,13 @@ Parameters:
 python ftp_download_file.py
 ```
 
+* ### Get External IP
+Gets the external ip-address from the current machine and prints it to the console
+```bash
+cd bin
+python getExternalIp.py
+```
+
 * ### Handy offline dictionary
 A tiny offline dictionary app based on nltk wordnet and pyqt5
 ```bash
