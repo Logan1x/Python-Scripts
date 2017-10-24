@@ -203,6 +203,12 @@ python client.py
 python server.py
 ```
 
+
+* ### Twitter_retweet_bot
+It is a simple script that retweets any hashtag provided in it. 
+```bash
+python twitter_retweet_bot
+
 * ### URL Shortener
 This is python script that shortens any URL provided to it.
 
@@ -212,6 +218,7 @@ python shortener.py url1 url2
 
 #Stores shortened URLs in a file
 python shortener.py url1 url2 > file.txt
+
 ```
 
 * ### Video-downloader v1.1
@@ -288,6 +295,7 @@ In case your browser stoped working delete/comment the following line in the scr
 * 0.0.1
     * Work in progress
 
+
 ## Meta
 
 Khushal Sharma – [@Khushal](https://twitter.com/herkuch) – sharmakhushal78@gmail.com
@@ -326,5 +334,6 @@ The following people helped in creating the above content.
 * <a href="https://github.com/SuryaThiru" target="_blank">Surya K</a>
 * <a href="https://github.com/szepnapot" target="_blank">Peter L.</a>
 * <a href="https://github.com/ehnydeel" target="_blank">Andreas K.</a>
+* <a href="https://github.com/iyanuashiri" target="_blank">Iyanu Ashiri</a>
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
