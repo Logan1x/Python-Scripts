@@ -203,6 +203,17 @@ python client.py
 python server.py
 ```
 
+* ### URL Shortener
+This is python script that shortens any URL provided to it.
+
+```bash
+# Takes multiple inputs and returns shortened URL for both
+python shortener.py url1 url2
+
+#Stores shortened URLs in a file
+python shortener.py url1 url2 > file.txt
+```
+
 * ### Video-downloader v1.1
 
 ### About
