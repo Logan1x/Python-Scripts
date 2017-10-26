@@ -216,7 +216,9 @@ python3 tweetload.py
 * ### Twitter_retweet_bot
 It is a simple script that retweets any hashtag provided in it. 
 ```bash
-python twitter_retweet_bot
+python twitter_retweet_bot.py
+```
+
 
 * ### URL Shortener
 This is python script that shortens any URL provided to it.
@@ -227,7 +229,6 @@ python shortener.py url1 url2
 
 #Stores shortened URLs in a file
 python shortener.py url1 url2 > file.txt
-
 ```
 
 
