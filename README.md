@@ -234,7 +234,7 @@ python shortener.py url1 url2 > file.txt
 
 * ### Video-downloader v1.1
 
-### About
+#### About
 
 This file allows the user to download videos off of the web.
 
@@ -246,7 +246,7 @@ More features will be added in the future iterations of the project.
 a simple video downloader using youtube-dl Library, a starter script for making use
 of youtube-dl.
 
-## Requirements
+#### Requirements
 
 * You will need to install youtube_dl
   * This can be installed using pip on windows,
@@ -255,9 +255,9 @@ of youtube-dl.
   * can be downloaded using pip on windows and respective package managers on different operating systems.
 * ffmpeg in order to convert the downloaded files to the right format
 
-## Installation
+#### Installation
 
-clone this repo and run the vid.py script!
+clone this repo and run `python vid.py` script!
 assuming you already have the other requirements.
 
 #### FFmpeg
