@@ -299,6 +299,27 @@ In case your browser stoped working delete/comment the following line in the scr
  `os.system("TASKKILL /F /IM " + brow + ".exe")`
 
 
+* ### Twitter Sentiment Analysis
+
+A python script that goes through the twitter feeds and calculates the sentiment of the users based on Twitter feeds on the topic of Demonetization in India. 
+Sentiments are calculated to be positive, negative or neutral. Various graphs give a pictorial analysis of the hashtags used. 
+
+ 
+#### Installation
+
+pip install random
+pip install re
+pip install textblob
+pip install collections
+pip install matplotlib
+pip install numpy
+
+#### NOTE:  
+The analyseTweets.py file and demonetization-tweets.csv file need to be in the same folder.
+
+```bash
+python analyseTweets.py
+```
 
 
 ## Release History
@@ -329,7 +350,7 @@ Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/
 ## Contributors
 
 The following people helped in creating the above content.
-
+* <a href="https://github.com/niharikakrishnan" target="_blank">Niharika Krishnan</a>
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
 * <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
 * <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
