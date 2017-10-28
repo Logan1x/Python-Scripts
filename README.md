@@ -1,4 +1,4 @@
-# Python Scripts
+﻿# Python Scripts
 
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 
@@ -290,7 +290,6 @@ python youtube-bot-linux.py
 # For Windows Users
 python youtube-bot-windows.py
 ```
-
 #### NOTE:  
 In case your browser stoped working delete/comment the following line in the script.  
 #### _Linux_
@@ -299,7 +298,15 @@ In case your browser stoped working delete/comment the following line in the scr
  `os.system("TASKKILL /F /IM " + brow + ".exe")`
 
 
-
+* ### Twitter Sentiment Analysis
+A python script that goes through the twitter feeds and calculates the sentiment of the users on the topic of Demonetization in India. 
+Sentiments are calculated to be positive, negative or neutral.
+Various other analyses are represented using graphs. 
+ 
+```bash
+pip install -r analyseTweets-requirements.txt
+python analyseTweets.py
+```
 
 ## Release History
 
@@ -329,7 +336,7 @@ Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/
 ## Contributors
 
 The following people helped in creating the above content.
-
+* <a href="https://github.com/niharikakrishnan">Niharika Krishnan</a>
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
 * <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
 * <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
