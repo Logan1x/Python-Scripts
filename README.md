@@ -313,10 +313,21 @@ python analyseTweets.py
 * 0.0.1
     * Work in progress
 
-
 ## Meta
 
 Khushal Sharma – [@Khushal](https://twitter.com/herkuch) – sharmakhushal78@gmail.com
+
+
+* ### Twitter Searcher
+
+A selenium script to search  [twitter](https://twitter.com/) handel.
+
+By deafult it searches for [Pycon](https://twitter.com/pycon)
+
+```bash
+python Twitter_search.py
+```
+
 
 Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/Logan1x/Python-Scripts/blob/master/LICENSE) for more information.
 
@@ -359,5 +370,6 @@ The following people helped in creating the above content.
 * <a href="https://github.com/khushboopaddiyar" target="_blank">Khushboo Paddiyar</a>
 * <a href="https://github.com/ahadali" target="_blank">Ahad Ali</a>
 * <a href="https://github.com/chiraag_jain" target="_blank">Chirag Jain</a>
+* <a href="https://github.com/sakshisangwan" target="_blank">Sakshi
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
