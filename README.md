@@ -1,4 +1,5 @@
 ﻿# Python Scripts
+
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 
 > This Repo is a collection of Various python scripts.
@@ -90,6 +91,17 @@ Useful for phones which might hide files in FileExplorer, but allow use as flash
 Directly prints results if run directly.
 May also be imported, yielding results one by one.
 
+* ### FTP Download File
+A simple application to download a file via FTP with the given remote and local path
+Parameters:
+ * -hh hostname
+ * -u  username
+ * -p  password
+ * -rd remote directory
+ * -ld local directory
+```bash
+python ftp_download_file.py
+```
 
 * ### Handy offline dictionary
 A tiny offline dictionary app based on nltk wordnet and pyqt5
@@ -192,6 +204,7 @@ python server.py
 ```
 
 
+
 ### Link Finder
 A selenium based script for scraping links from a YouTube Playlist.
 ```bash
@@ -204,6 +217,82 @@ It then calculates the area using two methods, the Simpson method and the Trapez
 ```bash
 python integrate-graph.py
 ```
+
+
+=======
+* ### Tweetload
+Download latest tweets (default: up to 4000) from a specific twitter user. The script will create a file with one tweet per line, stripped from mentions, hashtags and links.
+<br>
+For that to work, create a json file with your twitter credentials (see source) and define the twitter user in source code.  
+```bash
+python3 tweetload.py
+```
+
+
+* ### Twitter_retweet_bot
+It is a simple script that retweets any hashtag provided in it. 
+```bash
+python twitter_retweet_bot.py
+```
+
+
+* ### URL Shortener
+This is python script that shortens any URL provided to it.
+
+```bash
+# Takes multiple inputs and returns shortened URL for both
+python shortener.py url1 url2
+
+#Stores shortened URLs in a file
+python shortener.py url1 url2 > file.txt
+```
+
+
+* ### Video-downloader v1.1
+
+#### About
+
+This file allows the user to download videos off of the web.
+
+as of version 1 the user is able to download highquality videos as a playlist or single file as well as audio files from the supported
+
+websites given here http://rg3.github.io/youtube-dl/supportedsites.html are supported.
+
+More features will be added in the future iterations of the project.
+a simple video downloader using youtube-dl Library, a starter script for making use
+of youtube-dl.
+
+#### Requirements
+
+* You will need to install youtube_dl
+  * This can be installed using pip on windows,
+  * if you do not know how to use pip please read the installation instructions
+* requests library
+  * can be downloaded using pip on windows and respective package managers on different operating systems.
+* ffmpeg in order to convert the downloaded files to the right format
+
+#### Installation
+
+clone this repo and run `python vid.py` script!
+assuming you already have the other requirements.
+
+#### FFmpeg
+
+Follow this wiki-How tutorial
+
+http://www.wikihow.com/Install-FFmpeg-on-Windows
+
+
+#### PIP
+
+Extensive information on how to set up virtual env and pip.
+
+https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
+
+
+#### Commands
+
+Just run the script and follow the interface! Videos downloaded in same folder as the script.
 
 
 * ### YouTube Bot
@@ -222,7 +311,6 @@ python youtube-bot-linux.py
 python youtube-bot-windows.py
 
 ```
-
 #### NOTE:  
 In case your browser stoped working delete/comment the following line in the script.  
 #### _Linux_
@@ -231,12 +319,21 @@ In case your browser stoped working delete/comment the following line in the scr
  `os.system("TASKKILL /F /IM " + brow + ".exe")`
 
 
-
+* ### Twitter Sentiment Analysis
+A python script that goes through the twitter feeds and calculates the sentiment of the users on the topic of Demonetization in India. 
+Sentiments are calculated to be positive, negative or neutral.
+Various other analyses are represented using graphs. 
+ 
+```bash
+pip install -r analyseTweets-requirements.txt
+python analyseTweets.py
+```
 
 ## Release History
 
 * 0.0.1
     * Work in progress
+
 
 ## Meta
 
@@ -260,7 +357,7 @@ Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/
 ## Contributors
 
 The following people helped in creating the above content.
-
+* <a href="https://github.com/niharikakrishnan">Niharika Krishnan</a>
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
 * <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
 * <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
@@ -275,5 +372,13 @@ The following people helped in creating the above content.
 * <a href="https://github.com/apuayush" target="_blank">Apurva Nitanjay</a>
 * <a href="https://github.com/SuryaThiru" target="_blank">Surya K</a>
 * <a href="https://github.com/szepnapot" target="_blank">Peter L.</a>
+* <a href="https://github.com/ehnydeel" target="_blank">Andreas K.</a>
+* <a href="https://github.com/pr0me" target="_blank">Lukas S.</a>
+* <a href="https://github.com/iyanuashiri" target="_blank">Iyanu Ashiri</a>
+* <a href="https://github.com/harshvardhan58" target="_blank">Harshvardhan Singh</a>
+* <a href="https://github.com/shivamp123" target="_blank">Shivam Pachauri</a>
+* <a href="https://github.com/khushboopaddiyar" target="_blank">Khushboo Paddiyar</a>
+* <a href="https://github.com/ahadali" target="_blank">Ahad Ali</a>
+* <a href="https://github.com/chiraag_jain" target="_blank">Chirag Jain</a>
 
-### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts)
+### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
