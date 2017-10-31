@@ -218,6 +218,15 @@ It is a simple script that retweets any hashtag provided in it.
 ```bash
 python twitter_retweet_bot.py
 ```
+* ### Twitter Sentiment Analysis
+A python script that goes through the twitter feeds and calculates the sentiment of the users on the topic of Demonetization in India. 
+Sentiments are calculated to be positive, negative or neutral.
+Various other analyses are represented using graphs. 
+ 
+```bash
+pip install -r analyseTweets-requirements.txt
+python analyseTweets.py
+```
 
 
 * ### URL Shortener
@@ -296,17 +305,6 @@ In case your browser stoped working delete/comment the following line in the scr
  `os.system(" killall -9 " + brow)`
 #### _Windows_
  `os.system("TASKKILL /F /IM " + brow + ".exe")`
-
-
-* ### Twitter Sentiment Analysis
-A python script that goes through the twitter feeds and calculates the sentiment of the users on the topic of Demonetization in India. 
-Sentiments are calculated to be positive, negative or neutral.
-Various other analyses are represented using graphs. 
- 
-```bash
-pip install -r analyseTweets-requirements.txt
-python analyseTweets.py
-```
 
 ## Release History
 
