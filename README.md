@@ -101,7 +101,13 @@ Parameters:
  * -ld local directory
 ```bash
 python ftp_download_file.py
-```
+
+* ### Fetch HTML
+This script fetch html response from the provided url and parse xml tag to get only text content and print out.
+
+```bash
+python fetch_html.py https://github.com
+``````
 
 * ### Get External IP
 Gets the external ip-address from the current machine and prints it to the console
@@ -312,6 +318,7 @@ In case your browser stoped working delete/comment the following line in the scr
 #### _Windows_
  `os.system("TASKKILL /F /IM " + brow + ".exe")`
 
+
 ## Release History
 
 * 0.0.1
@@ -356,6 +363,7 @@ The following people helped in creating the above content.
 * <a href="https://github.com/SuryaThiru" target="_blank">Surya K</a>
 * <a href="https://github.com/szepnapot" target="_blank">Peter L.</a>
 * <a href="https://github.com/ehnydeel" target="_blank">Andreas K.</a>
+* <a href="https://github.com/zinuzoid" target="_blank">Jetsada Machom</a>
 * <a href="https://github.com/pr0me" target="_blank">Lukas S.</a>
 * <a href="https://github.com/iyanuashiri" target="_blank">Iyanu Ashiri</a>
 * <a href="https://github.com/harshvardhan58" target="_blank">Harshvardhan Singh</a>
