@@ -213,7 +213,6 @@ python server.py
 ```
 
 
-
 * ### Integrate to find area of a graph
 The script takes a given graph along with the range within which the area is to be calculated.
 It then calculates the area using two methods, the Simpson method and the Trapezoid method and displays the results on a graph.
@@ -222,7 +221,6 @@ python integrate-graph.py
 ```
 
 
-=======
 * ### Tweetload
 Download latest tweets (default: up to 4000) from a specific twitter user. The script will create a file with one tweet per line, stripped from mentions, hashtags and links.
 <br>
