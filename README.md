@@ -84,6 +84,15 @@ python facebook-auto-post.py
 ```
 
 
+* ### Feed_Forward_NN_keras
+A Python script for learning a simple Feed Forward Neuaral Network in Keras. It only works for python version greater than 3.5 .
+
+``` bash
+pip install -r Neural_Networks_requirements.txt
+python3 Feed_Forward_NN_keras.py
+```
+
+
 * ### Find Large Files
 
 Searches a file location and subdirectories for files larger than a given size.
