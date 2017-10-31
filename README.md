@@ -84,6 +84,15 @@ python facebook-auto-post.py
 ```
 
 
+* ### Feed_Forward_NN_keras
+A Python script for learning a simple Feed Forward Neuaral Network in Keras. It only works for python version greater than 3.5.
+
+``` bash
+pip install -r Neural_Networks_requirements.txt
+python3 Feed_Forward_NN_keras.py
+```
+
+
 * ### Find Large Files
 
 Searches a file location and subdirectories for files larger than a given size.
@@ -101,6 +110,13 @@ Parameters:
  * -ld local directory
 ```bash
 python ftp_download_file.py
+```
+
+* ### Function Approximator
+A simple feed forward neural network of many layers to approximate a function pow(a, 2) + pow(b, 2). It only works for python version greater than 3.5.
+```bash
+pip install -r Neural_Networks_requirements.txt
+python function_approximator.py
 ```
 
 * ### Handy offline dictionary
@@ -124,6 +140,15 @@ It then calculates the area using two methods, the Simpson method and the Trapez
 ```bash
 python integrate-graph.py
 ```
+
+
+* ### Link Finder
+A selenium based script for scraping links from a YouTube Playlist.
+```bash
+pip install -r link_finder.requirements.txt
+python link_finder.py
+```
+
 
 
 * ### Locate Me
@@ -201,6 +226,14 @@ It is simple client server communication script, will add more functionality in 
 cd server_client
 python client.py
 python server.py
+```
+
+
+* ### Integrate to find area of a graph
+The script takes a given graph along with the range within which the area is to be calculated.
+It then calculates the area using two methods, the Simpson method and the Trapezoid method and displays the results on a graph.
+```bash
+python integrate-graph.py
 ```
 
 
@@ -293,11 +326,16 @@ This is a simple python script that increases your video count/ views.
 Log out from all google accounts and run this.
 
 ```bash
+
+python ImagetoData.py
+
+
 # For Linux Users
 python youtube-bot-linux.py
 
 # For Windows Users
 python youtube-bot-windows.py
+
 ```
 #### NOTE:  
 In case your browser stoped working delete/comment the following line in the script.  
