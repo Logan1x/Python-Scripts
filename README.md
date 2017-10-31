@@ -126,6 +126,15 @@ python integrate-graph.py
 ```
 
 
+### Link Finder
+A selenium based script for scraping links from a YouTube Playlist.
+```bash
+pip install -r link_finder.requirements.txt
+python link_finder.py
+
+
+
+
 * ### Locate Me
 Run this script and it will locate you.
 
@@ -204,12 +213,6 @@ python server.py
 ```
 
 
-
-### Link Finder
-A selenium based script for scraping links from a YouTube Playlist.
-```bash
-pip install -r link_finder.requirements.txt
-python link_finder.py
 
 * ### Integrate to find area of a graph
 The script takes a given graph along with the range within which the area is to be calculated.
