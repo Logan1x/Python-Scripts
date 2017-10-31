@@ -85,7 +85,7 @@ python facebook-auto-post.py
 
 
 * ### Feed_Forward_NN_keras
-A Python script for learning a simple Feed Forward Neuaral Network in Keras. It only works for python version greater than 3.5 .
+A Python script for learning a simple Feed Forward Neuaral Network in Keras. It only works for python version greater than 3.5.
 
 ``` bash
 pip install -r Neural_Networks_requirements.txt
@@ -110,6 +110,13 @@ Parameters:
  * -ld local directory
 ```bash
 python ftp_download_file.py
+```
+
+* ### Function Approximator
+A simple feed forward neural network of many layers to approximate a function pow(a, 2) + pow(b, 2). It only works for python version greater than 3.5.
+```bash
+pip install -r Neural_Networks_requirements.txt
+python function_approximator.py
 ```
 
 * ### Handy offline dictionary
