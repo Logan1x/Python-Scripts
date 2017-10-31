@@ -1,4 +1,4 @@
-# Python Scripts
+﻿# Python Scripts
 
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 
@@ -101,6 +101,18 @@ Parameters:
  * -ld local directory
 ```bash
 python ftp_download_file.py
+
+* ### Fetch HTML
+This script fetch html response from the provided url and parse xml tag to get only text content and print out.
+
+```bash
+python fetch_html.py https://github.com
+``````
+
+* ### Get External IP
+Gets the external ip-address from the current machine and prints it to the console
+```bash
+python getExternalIp.py
 ```
 
 * ### Handy offline dictionary
@@ -203,21 +215,59 @@ python client.py
 python server.py
 ```
 
+
+* ### Tweetload
+Download latest tweets (default: up to 4000) from a specific twitter user. The script will create a file with one tweet per line, stripped from mentions, hashtags and links.
+<br>
+For that to work, create a json file with your twitter credentials (see source) and define the twitter user in source code.  
+```bash
+python3 tweetload.py
+```
+
+
+* ### Twitter_retweet_bot
+It is a simple script that retweets any hashtag provided in it. 
+```bash
+python twitter_retweet_bot.py
+```
+* ### Twitter Sentiment Analysis
+A python script that goes through the twitter feeds and calculates the sentiment of the users on the topic of Demonetization in India. 
+Sentiments are calculated to be positive, negative or neutral.
+Various other analyses are represented using graphs. 
+ 
+```bash
+pip install -r analyseTweets-requirements.txt
+python analyseTweets.py
+```
+
+
+* ### URL Shortener
+This is python script that shortens any URL provided to it.
+
+```bash
+# Takes multiple inputs and returns shortened URL for both
+python shortener.py url1 url2
+
+#Stores shortened URLs in a file
+python shortener.py url1 url2 > file.txt
+```
+
+
 * ### Video-downloader v1.1
 
-### About
+#### About
 
 This file allows the user to download videos off of the web.
 
-as of version 1 the user is able to download highquality videos as a playlist or single file as well as audio files from the supported 
+as of version 1 the user is able to download highquality videos as a playlist or single file as well as audio files from the supported
 
 websites given here http://rg3.github.io/youtube-dl/supportedsites.html are supported.
 
 More features will be added in the future iterations of the project.
-a simple video downloader using youtube-dl Library, a starter script for making use 
+a simple video downloader using youtube-dl Library, a starter script for making use
 of youtube-dl.
 
-## Requirements
+#### Requirements
 
 * You will need to install youtube_dl
   * This can be installed using pip on windows,
@@ -226,9 +276,9 @@ of youtube-dl.
   * can be downloaded using pip on windows and respective package managers on different operating systems.
 * ffmpeg in order to convert the downloaded files to the right format
 
-## Installation
+#### Installation
 
-clone this repo and run the vid.py script!
+clone this repo and run `python vid.py` script!
 assuming you already have the other requirements.
 
 #### FFmpeg
@@ -261,7 +311,6 @@ python youtube-bot-linux.py
 # For Windows Users
 python youtube-bot-windows.py
 ```
-
 #### NOTE:  
 In case your browser stoped working delete/comment the following line in the script.  
 #### _Linux_
@@ -270,18 +319,11 @@ In case your browser stoped working delete/comment the following line in the scr
  `os.system("TASKKILL /F /IM " + brow + ".exe")`
 
 
-* ### Fetch HTML
-This script fetch html response from the provided url and parse xml tag to get only text content and print out.
-
-```bash
-python fetch_html.py https://github.com
-```
-
-
 ## Release History
 
 * 0.0.1
     * Work in progress
+
 
 ## Meta
 
@@ -305,7 +347,7 @@ Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/
 ## Contributors
 
 The following people helped in creating the above content.
-
+* <a href="https://github.com/niharikakrishnan">Niharika Krishnan</a>
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
 * <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
 * <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
@@ -322,5 +364,12 @@ The following people helped in creating the above content.
 * <a href="https://github.com/szepnapot" target="_blank">Peter L.</a>
 * <a href="https://github.com/ehnydeel" target="_blank">Andreas K.</a>
 * <a href="https://github.com/zinuzoid" target="_blank">Jetsada Machom</a>
+* <a href="https://github.com/pr0me" target="_blank">Lukas S.</a>
+* <a href="https://github.com/iyanuashiri" target="_blank">Iyanu Ashiri</a>
+* <a href="https://github.com/harshvardhan58" target="_blank">Harshvardhan Singh</a>
+* <a href="https://github.com/shivamp123" target="_blank">Shivam Pachauri</a>
+* <a href="https://github.com/khushboopaddiyar" target="_blank">Khushboo Paddiyar</a>
+* <a href="https://github.com/ahadali" target="_blank">Ahad Ali</a>
+* <a href="https://github.com/chiraag_jain" target="_blank">Chirag Jain</a>
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
