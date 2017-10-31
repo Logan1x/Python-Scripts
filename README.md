@@ -126,12 +126,12 @@ python integrate-graph.py
 ```
 
 
-### Link Finder
+* ### Link Finder
 A selenium based script for scraping links from a YouTube Playlist.
 ```bash
 pip install -r link_finder.requirements.txt
 python link_finder.py
-
+```
 
 
 
