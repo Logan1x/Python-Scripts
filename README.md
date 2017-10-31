@@ -106,7 +106,6 @@ python ftp_download_file.py
 * ### Get External IP
 Gets the external ip-address from the current machine and prints it to the console
 ```bash
-cd bin
 python getExternalIp.py
 ```
 
