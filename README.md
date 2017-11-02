@@ -401,5 +401,6 @@ The following people helped in creating the above content.
 * <a href="https://github.com/khushboopaddiyar" target="_blank">Khushboo Paddiyar</a>
 * <a href="https://github.com/ahadali" target="_blank">Ahad Ali</a>
 * <a href="https://github.com/chiraag_jain" target="_blank">Chirag Jain</a>
+* <a href="https://github.com/lionasp" target="_blank">Pugach Vitalii</a>
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
