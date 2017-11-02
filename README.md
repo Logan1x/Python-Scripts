@@ -349,11 +349,21 @@ options.json example:
 }
 ```
 
+#### NOTE:  
+In case your browser stoped working delete/comment the following line in the script.  
+#### _Linux_
+ `os.system(" killall -9 " + brow)`
+#### _Windows_
+ `os.system("TASKKILL /F /IM " + brow + ".exe")`
+
+
+
+
+
 ## Release History
 
 * 0.0.1
     * Work in progress
-
 
 ## Meta
 
