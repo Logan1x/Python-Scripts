@@ -300,28 +300,10 @@ https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
 Just run the script and follow the interface! Videos downloaded in same folder as the script.
 
 
-* ### YouTube Bot
-This is a simple python script that increases your video count/ views.
-Log out from all google accounts and run this.
-
-```bash
-# For Linux Users
-python youtube-bot-linux.py
-
-# For Windows Users
-python youtube-bot-windows.py
-```
-#### NOTE:  
-In case your browser stoped working delete/comment the following line in the script.  
-#### _Linux_
- `os.system(" killall -9 " + brow)`
-#### _Windows_
- `os.system("TASKKILL /F /IM " + brow + ".exe")`
-
-
-### Highcharts loader
+* ### Highcharts loader
 It is a simple program that can load charts from [highcharts](www.highcharts.com).
 After loading chart you can save it to file or embed it into your html page in base64 format.
+Don't forget install `requests` library from `requirements.txt`
 ```python
 from highchart_loader import ChartLoader, Options
 
@@ -349,15 +331,24 @@ options.json example:
 }
 ```
 
+
+* ### YouTube Bot
+This is a simple python script that increases your video count/ views.
+Log out from all google accounts and run this.
+
+```bash
+# For Linux Users
+python youtube-bot-linux.py
+
+# For Windows Users
+python youtube-bot-windows.py
+```
 #### NOTE:  
 In case your browser stoped working delete/comment the following line in the script.  
 #### _Linux_
  `os.system(" killall -9 " + brow)`
 #### _Windows_
  `os.system("TASKKILL /F /IM " + brow + ".exe")`
-
-
-
 
 
 ## Release History
