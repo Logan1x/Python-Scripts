@@ -224,8 +224,6 @@ For that to work, create a json file with your twitter credentials (see source) 
 ```bash
 python3 tweetload.py
 ```
-* ### Blog Reader
-
 * ### Twitter_retweet_bot
 It is a simple script that retweets any hashtag provided in it. 
 ```bash
@@ -252,13 +250,9 @@ python shortener.py url1 url2
 #Stores shortened URLs in a file
 python shortener.py url1 url2 > file.txt
 ```
-
-* ### Find Large Files
-
-
 * ### Video-downloader v1.1
 
-#### About
+  #### About
 
 
 This file allows the user to download videos off of the web.
@@ -295,43 +289,10 @@ http://www.wikihow.com/Install-FFmpeg-on-Windows
 Extensive information on how to set up virtual env and pip.
 
 https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
-* ### Expense Manager
-Simple GUI program which helps you calculate your expenses, monitor them just through mouse clicks. All you have to do is run the script and choose an option from the menu which will displayed when you run the script. Enter Your Expenses as eg: "Biscuits Rs 15" <press enter> "<item> rs <amount>" ignore the quotes.
 
-```bash
-python expense_manger.py
-```
-* ### Caesar Cipher
-Encrypts or Decrypts any message you want, simply enter the message and the rotation number
-```bash
-python caesar_cipher.py
-```
-* ### Image Encoder
-It is a simple program to encode and decode images, which helps to reduce and handle images on server, as it is convertedto base64 address.
-```bash
-python image_encoder.py
-```
-
-* ### Missionaires And Cannibals Problem
-It is a simple program to mimic Missionaries And Cannibals River Crossing Problem.
-```bash
-python missionaries_and_cannibals_problem.py
-```
-
-* ### End To End Encryption
-It is a simple program to implement and understand the basic of end_to_end encryption.
-Here i am using caesar cipher to encrpt nbut in reality they Use algotihms lile SHA-1, RSA etc.
-```bash
-python end_to_end.py
-```
 #### Commands
 
 Just run the script and follow the interface! Videos downloaded in same folder as the script.
-
-
-* ### YouTube Bot
-This is a simple python script that increases your video count/ views.
-Log out from all google accounts and run this.
 * ### Server And Client
 It is simple client server communication script, will add more functionality in future.
 ```bash
@@ -339,10 +300,10 @@ cd server_client
 python client.py
 python server.py
 ```
+* ### YouTube Bot
+This is a simple python script that increases your video count/ views.
+Log out from all google accounts and run this.
 
-* ### Integrate to find area of a graph
-The script takes a given graph along with the range within which the area is to be calculated.
-It then calculates the area using two methods, the Simpson method and the Trapezoid method and displays the results on a graph.
 ```bash
 # For Linux Users
 python youtube-bot-linux.py
