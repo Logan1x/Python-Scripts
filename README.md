@@ -1,5 +1,4 @@
 ﻿# [Python Scripts](https://logan1x.github.io/Python-Scripts/)
-﻿# Python Scripts
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
