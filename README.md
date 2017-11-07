@@ -1,5 +1,6 @@
 ﻿# [Python Scripts](https://logan1x.github.io/Python-Scripts/)
-
+﻿# Python Scripts
+[![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](http://forthebadge.com)
@@ -23,6 +24,9 @@ cd Python-Scripts/bin
 * ### Approximating *pi*
 
 This script is useful to show a way to approximate the value of pi using a Monte Carlo method. It is also optimized using the `@jit` (*just-in-time*) decorator from the [numba](https://numba.pydata.org/) library.
+
+* ### Meme Density
+This script tells you the amount of memes in your facebook feed
 
 To see different approximations you just need to modify the argument passed to the main function.
 
@@ -52,6 +56,7 @@ pip install twitter
 python bulk_add_twitter_list.py
 ```
 
+
 * ### Caesar Cipher
 Encrypts or Decrypts any message you want, simply enter the message and the rotation number
 ```bash
@@ -72,6 +77,8 @@ Simple GUI program which helps you calculate your expenses, monitor them just th
 ```bash
 python expense_manger.py
 ```
+
+
 
 * ### Facebook Auto Post
 This is python script that log in into facebook and post the status.  
@@ -138,7 +145,6 @@ It then calculates the area using two methods, the Simpson method and the Trapez
 python integrate-graph.py
 ```
 
-
 * ### Locate Me
 Run this script and it will locate you.
 
@@ -158,6 +164,7 @@ python locate-me.py
 ```
 
 
+
 * ### Meme Density
 This script tells you the amount of memes in your facebook feed
 
@@ -167,7 +174,6 @@ pip install memedensity
 
 memedensity
 ```
-
 
 * ### Mi Community Bot
 This python script uses selenium module in python to automate the thread posting.  
@@ -180,16 +186,11 @@ If you want to understand this code you can visit [here.](https://l0gan1x.quora.
 pip install -r mi-community-bot.requirements.txt
 python mi-community-bot.py
 ```
-
-
 * ### Missionaires And Cannibals Problem
 It is a simple program to mimic Missionaries And Cannibals River Crossing Problem.
 ```bash
 python missionaries_and_cannibals_problem.py
 ```
-
-
-
 * ### Password Strength Checker
 This code checks for your password strength. For the right password, password must contain mixture of an upper case letters, an digit (including 0-9), and a special characters with lower case letters.
 
@@ -197,12 +198,12 @@ This code checks for your password strength. For the right password, password mu
 ```bash
 python password-strength-checker.py
 ```
-
-
 * ### Plotting a function
 
 This script contains an example of plotting a function using [`matplotlib`](http://matplotlib.org/). Feel free to modify the value of `y` to obtain different functions that depend on `x`.
-
+* ### YouTube Bot
+This is a simple python script that increases your video count/ views.
+Log out from all google accounts and run this.
 ```bash
 python plot_example.py
 ```
@@ -224,7 +225,7 @@ For that to work, create a json file with your twitter credentials (see source) 
 ```bash
 python3 tweetload.py
 ```
-
+* ### Blog Reader
 
 * ### Twitter_retweet_bot
 It is a simple script that retweets any hashtag provided in it. 
@@ -253,13 +254,16 @@ python shortener.py url1 url2
 python shortener.py url1 url2 > file.txt
 ```
 
+* ### Find Large Files
+
 
 * ### Video-downloader v1.1
 
 #### About
 
-This file allows the user to download videos off of the web.
 
+This file allows the user to download videos off of the web.
+* ### Approximating *pi*
 as of version 1 the user is able to download highquality videos as a playlist or single file as well as audio files from the supported
 
 websites given here http://rg3.github.io/youtube-dl/supportedsites.html are supported.
@@ -269,33 +273,58 @@ a simple video downloader using youtube-dl Library, a starter script for making 
 of youtube-dl.
 
 #### Requirements
-
 * You will need to install youtube_dl
   * This can be installed using pip on windows,
   * if you do not know how to use pip please read the installation instructions
 * requests library
   * can be downloaded using pip on windows and respective package managers on different operating systems.
 * ffmpeg in order to convert the downloaded files to the right format
+* ### Plotting a function
 
 #### Installation
 
 clone this repo and run `python vid.py` script!
 assuming you already have the other requirements.
-
 #### FFmpeg
-
+* ### Bulk add users to Twitter list
 Follow this wiki-How tutorial
 
 http://www.wikihow.com/Install-FFmpeg-on-Windows
-
 
 #### PIP
 
 Extensive information on how to set up virtual env and pip.
 
 https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
+* ### Expense Manager
+Simple GUI program which helps you calculate your expenses, monitor them just through mouse clicks. All you have to do is run the script and choose an option from the menu which will displayed when you run the script. Enter Your Expenses as eg: "Biscuits Rs 15" <press enter> "<item> rs <amount>" ignore the quotes.
 
+```bash
+python expense_manger.py
+```
+* ### Caesar Cipher
+Encrypts or Decrypts any message you want, simply enter the message and the rotation number
+```bash
+python caesar_cipher.py
+```
+* ### Image Encoder
+It is a simple program to encode and decode images, which helps to reduce and handle images on server, as it is convertedto base64 address.
+```bash
+python image_encoder.py
+```
 
+* ### Missionaires And Cannibals Problem
+It is a simple program to mimic Missionaries And Cannibals River Crossing Problem.
+```bash
+python missionaries_and_cannibals_problem.py
+```
+
+* ### End To End Encryption
+It is a simple program to implement and understand the basic of end_to_end encryption.
+Here i am using caesar cipher to encrpt nbut in reality they Use algotihms lile SHA-1, RSA etc.
+```bash
+python end_to_end.py
+```
 #### Commands
 
 Just run the script and follow the interface! Videos downloaded in same folder as the script.
@@ -304,7 +333,17 @@ Just run the script and follow the interface! Videos downloaded in same folder a
 * ### YouTube Bot
 This is a simple python script that increases your video count/ views.
 Log out from all google accounts and run this.
+* ### Server And Client
+It is simple client server communication script, will add more functionality in future.
+```bash
+cd server_client
+python client.py
+python server.py
+```
 
+* ### Integrate to find area of a graph
+The script takes a given graph along with the range within which the area is to be calculated.
+It then calculates the area using two methods, the Simpson method and the Trapezoid method and displays the results on a graph.
 ```bash
 # For Linux Users
 python youtube-bot-linux.py
