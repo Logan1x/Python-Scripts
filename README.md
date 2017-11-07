@@ -1,4 +1,4 @@
-﻿# Python Scripts
+﻿# [Python Scripts](https://logan1x.github.io/Python-Scripts/)
 
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 
@@ -366,10 +366,8 @@ The following people helped in creating the above content.
 * <a href="https://github.com/zinuzoid" target="_blank">Jetsada Machom</a>
 * <a href="https://github.com/pr0me" target="_blank">Lukas S.</a>
 * <a href="https://github.com/iyanuashiri" target="_blank">Iyanu Ashiri</a>
-* <a href="https://github.com/harshvardhan58" target="_blank">Harshvardhan Singh</a>
-* <a href="https://github.com/shivamp123" target="_blank">Shivam Pachauri</a>
-* <a href="https://github.com/khushboopaddiyar" target="_blank">Khushboo Paddiyar</a>
-* <a href="https://github.com/ahadali" target="_blank">Ahad Ali</a>
-* <a href="https://github.com/chiraag_jain" target="_blank">Chirag Jain</a>
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
+
+
+[`Back to Top`](https://github.com/Logan1x/Python-Scripts#python-scripts)
