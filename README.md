@@ -346,7 +346,6 @@ Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/
 ## Contributors
 
 The following people helped in creating the above content.
-* <a href="https://github.com/niharikakrishnan">Niharika Krishnan</a>
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
 * <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
 * <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
@@ -365,6 +364,7 @@ The following people helped in creating the above content.
 * <a href="https://github.com/zinuzoid" target="_blank">Jetsada Machom</a>
 * <a href="https://github.com/pr0me" target="_blank">Lukas S.</a>
 * <a href="https://github.com/iyanuashiri" target="_blank">Iyanu Ashiri</a>
+* <a href="https://github.com/niharikakrishnan">Niharika Krishnan</a>
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
 
