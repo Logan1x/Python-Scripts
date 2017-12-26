@@ -1,7 +1,7 @@
-﻿# Python Scripts
-
+﻿# [Python Scripts](https://logan1x.github.io/Python-Scripts/)
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
-
+[![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](http://forthebadge.com)
 > This Repo is a collection of Various python scripts.
 
 In this repo there are different kinds of python scripts for their respective uses. These all are open sourced and you can use them in any form for free.
@@ -22,6 +22,9 @@ cd Python-Scripts/bin
 * ### Approximating *pi*
 
 This script is useful to show a way to approximate the value of pi using a Monte Carlo method. It is also optimized using the `@jit` (*just-in-time*) decorator from the [numba](https://numba.pydata.org/) library.
+
+* ### Meme Density
+This script tells you the amount of memes in your facebook feed
 
 To see different approximations you just need to modify the argument passed to the main function.
 
@@ -51,6 +54,7 @@ pip install twitter
 python bulk_add_twitter_list.py
 ```
 
+
 * ### Caesar Cipher
 Encrypts or Decrypts any message you want, simply enter the message and the rotation number
 ```bash
@@ -71,6 +75,8 @@ Simple GUI program which helps you calculate your expenses, monitor them just th
 ```bash
 python expense_manger.py
 ```
+
+
 
 * ### Facebook Auto Post
 This is python script that log in into facebook and post the status.  
@@ -137,7 +143,6 @@ It then calculates the area using two methods, the Simpson method and the Trapez
 python integrate-graph.py
 ```
 
-
 * ### Locate Me
 Run this script and it will locate you.
 
@@ -157,6 +162,7 @@ python locate-me.py
 ```
 
 
+
 * ### Meme Density
 This script tells you the amount of memes in your facebook feed
 
@@ -166,7 +172,6 @@ pip install memedensity
 
 memedensity
 ```
-
 
 * ### Mi Community Bot
 This python script uses selenium module in python to automate the thread posting.  
@@ -179,16 +184,11 @@ If you want to understand this code you can visit [here.](https://l0gan1x.quora.
 pip install -r mi-community-bot.requirements.txt
 python mi-community-bot.py
 ```
-
-
 * ### Missionaires And Cannibals Problem
 It is a simple program to mimic Missionaries And Cannibals River Crossing Problem.
 ```bash
 python missionaries_and_cannibals_problem.py
 ```
-
-
-
 * ### Password Strength Checker
 This code checks for your password strength. For the right password, password must contain mixture of an upper case letters, an digit (including 0-9), and a special characters with lower case letters.
 
@@ -196,12 +196,12 @@ This code checks for your password strength. For the right password, password mu
 ```bash
 python password-strength-checker.py
 ```
-
-
 * ### Plotting a function
 
 This script contains an example of plotting a function using [`matplotlib`](http://matplotlib.org/). Feel free to modify the value of `y` to obtain different functions that depend on `x`.
-
+* ### YouTube Bot
+This is a simple python script that increases your video count/ views.
+Log out from all google accounts and run this.
 ```bash
 python plot_example.py
 ```
@@ -223,8 +223,6 @@ For that to work, create a json file with your twitter credentials (see source) 
 ```bash
 python3 tweetload.py
 ```
-
-
 * ### Twitter_retweet_bot
 It is a simple script that retweets any hashtag provided in it. 
 ```bash
@@ -251,14 +249,13 @@ python shortener.py url1 url2
 #Stores shortened URLs in a file
 python shortener.py url1 url2 > file.txt
 ```
-
-
 * ### Video-downloader v1.1
 
-#### About
+  #### About
+
 
 This file allows the user to download videos off of the web.
-
+* ### Approximating *pi*
 as of version 1 the user is able to download highquality videos as a playlist or single file as well as audio files from the supported
 
 websites given here http://rg3.github.io/youtube-dl/supportedsites.html are supported.
@@ -268,25 +265,23 @@ a simple video downloader using youtube-dl Library, a starter script for making 
 of youtube-dl.
 
 #### Requirements
-
 * You will need to install youtube_dl
   * This can be installed using pip on windows,
   * if you do not know how to use pip please read the installation instructions
 * requests library
   * can be downloaded using pip on windows and respective package managers on different operating systems.
 * ffmpeg in order to convert the downloaded files to the right format
+* ### Plotting a function
 
 #### Installation
 
 clone this repo and run `python vid.py` script!
 assuming you already have the other requirements.
-
 #### FFmpeg
-
+* ### Bulk add users to Twitter list
 Follow this wiki-How tutorial
 
 http://www.wikihow.com/Install-FFmpeg-on-Windows
-
 
 #### PIP
 
@@ -294,12 +289,16 @@ Extensive information on how to set up virtual env and pip.
 
 https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
 
-
 #### Commands
 
 Just run the script and follow the interface! Videos downloaded in same folder as the script.
-
-
+* ### Server And Client
+It is simple client server communication script, will add more functionality in future.
+```bash
+cd server_client
+python client.py
+python server.py
+```
 * ### YouTube Bot
 This is a simple python script that increases your video count/ views.
 Log out from all google accounts and run this.
@@ -347,7 +346,6 @@ Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/
 ## Contributors
 
 The following people helped in creating the above content.
-* <a href="https://github.com/niharikakrishnan">Niharika Krishnan</a>
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
 * <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
 * <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
@@ -366,10 +364,9 @@ The following people helped in creating the above content.
 * <a href="https://github.com/zinuzoid" target="_blank">Jetsada Machom</a>
 * <a href="https://github.com/pr0me" target="_blank">Lukas S.</a>
 * <a href="https://github.com/iyanuashiri" target="_blank">Iyanu Ashiri</a>
-* <a href="https://github.com/harshvardhan58" target="_blank">Harshvardhan Singh</a>
-* <a href="https://github.com/shivamp123" target="_blank">Shivam Pachauri</a>
-* <a href="https://github.com/khushboopaddiyar" target="_blank">Khushboo Paddiyar</a>
-* <a href="https://github.com/ahadali" target="_blank">Ahad Ali</a>
-* <a href="https://github.com/chiraag_jain" target="_blank">Chirag Jain</a>
+* <a href="https://github.com/niharikakrishnan">Niharika Krishnan</a>
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
+
+
+[`Back to Top`](https://github.com/Logan1x/Python-Scripts#python-scripts)
