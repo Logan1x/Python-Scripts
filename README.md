@@ -128,6 +128,36 @@ cd dictionary
 python app.py
 ```
 
+* ### Highcharts loader
+It is a simple program that can load charts from [highcharts](www.highcharts.com).
+After loading chart you can save it to file or embed it into your html page in base64 format.
+Don't forget install `requests` library from `highcharts_loader_requirements.txt`
+```python
+from highcharts_loader import ChartLoader, Options
+
+options = Options(from_file='options.json')
+chart = ChartLoader(options)
+chart.save_to_file('result.png')
+```
+
+options.json example:
+```json
+{
+    "chart": {
+        "type": "bar"
+    },
+    "title": {
+        "text": "Which channels are driving engagement?"
+    },
+    "xAxis": {
+        "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                       "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    },
+    "series": [{
+        "data": [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+    }]
+}
+```
 
 * ### Image Encoder
 It is a simple program to encode and decode images, which helps to reduce and handle images on server, as it is convertedto base64 address.
@@ -365,6 +395,7 @@ The following people helped in creating the above content.
 * <a href="https://github.com/pr0me" target="_blank">Lukas S.</a>
 * <a href="https://github.com/iyanuashiri" target="_blank">Iyanu Ashiri</a>
 * <a href="https://github.com/niharikakrishnan">Niharika Krishnan</a>
+* <a href="https://github.com/lionasp" target="_blank">Pugach Vitalii</a>
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
 
