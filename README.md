@@ -340,6 +340,18 @@ python youtube-bot-linux.py
 # For Windows Users
 python youtube-bot-windows.py
 ```
+
+* ### Air Quality Script
+    - This script renders the air quality from the location of the user
+    - The location is fetched using the user's IP address
+
+    - This script requires a key from WAQI. 
+    - It is free and can be fetched from http://aqicn.org/data-platform/token/#/
+    #### Usage Instructions
+    ```python
+    python air-quality.py token
+    ```
+
 #### NOTE:  
 In case your browser stoped working delete/comment the following line in the script.  
 #### _Linux_
@@ -396,6 +408,7 @@ The following people helped in creating the above content.
 * <a href="https://github.com/iyanuashiri" target="_blank">Iyanu Ashiri</a>
 * <a href="https://github.com/niharikakrishnan">Niharika Krishnan</a>
 * <a href="https://github.com/lionasp" target="_blank">Pugach Vitalii</a>
+* <a href="https://github.com/ayrusme" target="_blank">Surya Raman</a>
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
 
