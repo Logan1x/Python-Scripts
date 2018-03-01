@@ -1,3 +1,11 @@
+import os
+import tkinter
+
+
+root = tkinter.Tk()
+root.geometry('1250x700')
+
+
 # General Function:
 
 
@@ -303,7 +311,6 @@ def add():
 
 
 def delete():
-    import os
 
     def delete(x): return os.remove(x)
 
@@ -336,11 +343,6 @@ def delete():
     b1 = tkinter.Button(f1, text="Delete", bg="#9999FF", fg="#660099",
                         relief="groove", command=sub_delete, height=2, width=10)
     b1.place(relx=0.47, rely=0.56)
-
-
-import tkinter
-root = tkinter.Tk()
-root.geometry('1250x700')
 
 
 def start():

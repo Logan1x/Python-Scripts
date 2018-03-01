@@ -7,6 +7,6 @@ install:
   - pip install coveralls
   - pip install pep8
 script:
-  - pep8 --max-line-length 500 bin
+  - pep8 --max-line-length 5000 bin
 after_success:
   - coveralls
