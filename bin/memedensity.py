@@ -1,4 +1,14 @@
 
+import os
+import argparse
+import requests
+import six
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from time import sleep
+from getpass import getpass
+from argparse import RawTextHelpFormatter
+
 ASCII = """
   __  __                     _____                 _ _
  |  \/  |                   |  __ \               (_) |
@@ -15,16 +25,6 @@ DESC = """
 newsfeed. Provides % memes in newsfeed.
 - Provides memes in newsfeed urls
 """
-
-import os
-import argparse
-import requests
-import six
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from time import sleep
-from getpass import getpass
-from argparse import RawTextHelpFormatter
 
 if six.PY2:
     input = raw_input
