@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from time import sleep
-from selenium.common.exceptions import TimeoutException
+from time import sleepfrom selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
@@ -18,7 +17,7 @@ Email = raw_input("Enter your Email ID:")
 email = driver.find_element_by_xpath("//input[@id='email' or @name='email']")
 email.send_keys(Email)
 print("Email Id entered...")
-password1=getpass.getpass("Enter your Facebook password: ")
+password1 = getpass.getpass("Enter your Facebook password: ")
 password = driver.find_element_by_xpath("//input[@id='pass']")
 password.send_keys(password1)
 print("Password entered...")
@@ -38,4 +37,4 @@ postbutton.click()
 time.sleep(10)
 driver.close()
 
-#Thank You Stackoverflow and Jio for help
+# Thank You Stackoverflow and Jio for help

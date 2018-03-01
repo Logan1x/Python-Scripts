@@ -22,7 +22,8 @@ def retweet_bot():
             print('Twitter user: ' + '@' + tweet.user.screen_name)
             tweet.retweet()
             print('\nDone')
-            time.sleep(5)  # You can remove the time module, if you want the program to continuously retweet
+            # You can remove the time module, if you want the program to continuously retweet
+            time.sleep(5)
         except tweepy.error.TweepError:
             pass
 
