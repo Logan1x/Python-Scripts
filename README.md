@@ -31,13 +31,6 @@ cd Python-Scripts/bin
     python air-quality.py token
     ```
 
-#### NOTE:  
-In case your browser stoped working delete/comment the following line in the script.  
-#### _Linux_
- `os.system(" killall -9 " + brow)`
-#### _Windows_
- `os.system("TASKKILL /F /IM " + brow + ".exe")`
-
 ## Release History
 
 * 0.0.1
@@ -348,6 +341,13 @@ python youtube-bot-linux.py
 # For Windows Users
 python youtube-bot-windows.py
 ```
+
+#### NOTE:  
+In case your browser stoped working delete/comment the following line in the script.  
+#### _Linux_
+ `os.system(" killall -9 " + brow)`
+#### _Windows_
+ `os.system("TASKKILL /F /IM " + brow + ".exe")`
 
 ## Meta
 
