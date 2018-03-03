@@ -1,6 +1,5 @@
 key = 'abcdefghijklmnopqrstuvwxyz'
 
-
 def encrypt(n, plaintext):
     """Encrypt the string and return the ciphertext"""
     result = ''
@@ -28,7 +27,6 @@ def decrypt(n, ciphertext):
 
     return result
 
-
 print("Encrypt or decrypt?")
 ans = input()
 ans = ans.lower()
@@ -37,8 +35,8 @@ k = input()
 print("Enter rotation number")
 nn = int(input())
 if ans == 'encrypt':
-    ret = encrypt(nn, k)
-    print('Encrytped: %s' % ret)
+    ret = encrypt(nn,k)
+    print ('Encrytped: %s' % ret)
 else:
-    ret = decrypt(nn, k)
-    print('Decrytped: %s' % ret)
+    ret = decrypt(nn,k)
+    print ('Decrytped: %s' % ret)
