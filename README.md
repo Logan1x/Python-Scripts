@@ -70,6 +70,16 @@ Encrypts or Decrypts any message you want, simply enter the message and the rota
 python caesar_cipher.py
 ```
 
+* ### Contributor list
+For a given repo generate contribute.md with images in same size like the one in this README.md
+
+```python
+ python .\contributors.py https://github.com/Logan1x/Python-Scripts/
+```
+where the argument is the url of the repo
+
+you may need to install packages like PIL@1.1.7 and requests if not installed 
+
 * ### End To End Encryption
 It is a simple program to implement and understand the basic of end_to_end encryption.
 Here i am using caesar cipher to encrpt nbut in reality they Use algotihms lile SHA-1, RSA etc.
@@ -372,28 +382,7 @@ Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/
 
 The following people helped in creating the above content.
 
-* <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
-* <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
-* <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
-* <a href="https://github.com/Pradhvan">Pradhvan Bisht</a>
-* <a href="https://github.com/toonarmycaptain" target="_blank">David Antonini</a>
-* <a href="https://github.com/vigov5" target="_blank">Nguyen Anh Tien</a>
-* <a href="https://github.com/akshitgrover" target="_blank">Akshit Grover</a>
-* <a href="https://github.com/Sharanpai" target="_blank">Sharan Pai</a>
-* <a href="https://github.com/MadhavBahlMD" target="_blank">Madhav Bahl</a>
-* <a href="https://github.com/ishank011" target="_blank">Ishank Arora</a>
-* <a href="https://github.com/vis2797" target="_blank">Vishal Sharma</a>
-* <a href="https://github.com/apuayush" target="_blank">Apurva Nitanjay</a>
-* <a href="https://github.com/SuryaThiru" target="_blank">Surya K</a>
-* <a href="https://github.com/szepnapot" target="_blank">Peter L.</a>
-* <a href="https://github.com/ehnydeel" target="_blank">Andreas K.</a>
-* <a href="https://github.com/zinuzoid" target="_blank">Jetsada Machom</a>
-* <a href="https://github.com/pr0me" target="_blank">Lukas S.</a>
-* <a href="https://github.com/Rafi993" target="_blank">Rafi993</a>
-* <a href="https://github.com/iyanuashiri" target="_blank">Iyanu Ashiri</a>
-* <a href="https://github.com/niharikakrishnan">Niharika Krishnan</a>
-* <a href="https://github.com/lionasp" target="_blank">Pugach Vitalii</a>
-* <a href="https://github.com/ayrusme" target="_blank">Surya Raman</a>
+![ayrusme](./images/ayrusme.png  "ayrusme" )![lionasp](./images/lionasp.png  "lionasp" )![zinuzoid](./images/zinuzoid.png  "zinuzoid" )![dgupta777](./images/dgupta777.png  "dgupta777" )![chiraag-jain](./images/chiraag-jain.png  "chiraag-jain" )![niharikakrishnan](./images/niharikakrishnan.png  "niharikakrishnan" )![ahadali](./images/ahadali.png  "ahadali" )![khushboopaddiyar](./images/khushboopaddiyar.png  "khushboopaddiyar" )![Harshvardhan58](./images/Harshvardhan58.png  "Harshvardhan58" )![pr0me](./images/pr0me.png  "pr0me" )![abhinavralhan](./images/abhinavralhan.png  "abhinavralhan" )![Souldiv](./images/Souldiv.png  "Souldiv" )![szepnapot](./images/szepnapot.png  "szepnapot" )![SuryaThiru](./images/SuryaThiru.png  "SuryaThiru" )![apuayush](./images/apuayush.png  "apuayush" )![ishank011](./images/ishank011.png  "ishank011" )![ValentinChCloud](./images/ValentinChCloud.png  "ValentinChCloud" )![MadhavBahlMD](./images/MadhavBahlMD.png  "MadhavBahlMD" )![vigov5](./images/vigov5.png  "vigov5" )![RodolfoFerro](./images/RodolfoFerro.png  "RodolfoFerro" )![toonarmycaptain](./images/toonarmycaptain.png  "toonarmycaptain" )![harsha7890](./images/harsha7890.png  "harsha7890" )![Pradhvan](./images/Pradhvan.png  "Pradhvan" )![Rafi993](./images/Rafi993.png  "Rafi993" )![ehnydeel](./images/ehnydeel.png  "ehnydeel" )![shivamp123](./images/shivamp123.png  "shivamp123" )![vis2797](./images/vis2797.png  "vis2797" )![Sharanpai](./images/Sharanpai.png  "Sharanpai" )![kalbhor](./images/kalbhor.png  "kalbhor" )![iyanuashiri](./images/iyanuashiri.png  "iyanuashiri" )![akshitgrover](./images/akshitgrover.png  "akshitgrover" )![KayvanMazaheri](./images/KayvanMazaheri.png  "KayvanMazaheri" )![Logan1x](./images/Logan1x.png  "Logan1x" )
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
 
