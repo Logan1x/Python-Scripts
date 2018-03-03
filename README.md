@@ -19,18 +19,34 @@ cd Python-Scripts/bin
 ```
 
 ## Scripts
+
+* ### Air Quality Script
+    - This script renders the air quality from the location of the user
+    - The location is fetched using the user's IP address
+
+    - This script requires a key from WAQI. 
+    - It is free and can be fetched from http://aqicn.org/data-platform/token/#/
+    #### Usage Instructions
+    ```python
+    python air-quality.py token
+    ```
+
+#### NOTE:  
+In case your browser stoped working delete/comment the following line in the script.  
+#### _Linux_
+ `os.system(" killall -9 " + brow)`
+#### _Windows_
+ `os.system("TASKKILL /F /IM " + brow + ".exe")`
+
+## Release History
+
+* 0.0.1
+    * Work in progress
+
+
 * ### Approximating *pi*
 
 This script is useful to show a way to approximate the value of pi using a Monte Carlo method. It is also optimized using the `@jit` (*just-in-time*) decorator from the [numba](https://numba.pydata.org/) library.
-
-* ### Meme Density
-This script tells you the amount of memes in your facebook feed
-
-To see different approximations you just need to modify the argument passed to the main function.
-
-```bash
-python pi.py
-```
 
 * ### Blog Reader
 
@@ -121,6 +137,15 @@ Gets the external ip-address from the current machine and prints it to the conso
 python getExternalIp.py
 ```
 
+* ### Group files by type
+    - Group files by their extensions
+    - Files are moved into folders with extension names
+
+    #### Usage Instructions
+    ```python
+    python group_file_by_type.py 'C:\\test\\products'
+    ```
+
 * ### Handy offline dictionary
 A tiny offline dictionary app based on nltk wordnet and pyqt5
 ```bash
@@ -191,8 +216,6 @@ This uses [Checkip](http://checkip.dyndns.com/) and [ipinfo.io](http://ipinfo.io
 python locate-me.py
 ```
 
-
-
 * ### Meme Density
 This script tells you the amount of memes in your facebook feed
 
@@ -229,13 +252,6 @@ python password-strength-checker.py
 * ### Plotting a function
 
 This script contains an example of plotting a function using [`matplotlib`](http://matplotlib.org/). Feel free to modify the value of `y` to obtain different functions that depend on `x`.
-* ### YouTube Bot
-This is a simple python script that increases your video count/ views.
-Log out from all google accounts and run this.
-```bash
-python plot_example.py
-```
-
 
 * ### Server And Client
 It is simple client server communication script, will add more functionality in future.
@@ -244,7 +260,6 @@ cd server_client
 python client.py
 python server.py
 ```
-
 
 * ### Tweetload
 Download latest tweets (default: up to 4000) from a specific twitter user. The script will create a file with one tweet per line, stripped from mentions, hashtags and links.
@@ -279,13 +294,13 @@ python shortener.py url1 url2
 #Stores shortened URLs in a file
 python shortener.py url1 url2 > file.txt
 ```
+
 * ### Video-downloader v1.1
 
   #### About
 
 
 This file allows the user to download videos off of the web.
-* ### Approximating *pi*
 as of version 1 the user is able to download highquality videos as a playlist or single file as well as audio files from the supported
 
 websites given here http://rg3.github.io/youtube-dl/supportedsites.html are supported.
@@ -301,7 +316,6 @@ of youtube-dl.
 * requests library
   * can be downloaded using pip on windows and respective package managers on different operating systems.
 * ffmpeg in order to convert the downloaded files to the right format
-* ### Plotting a function
 
 #### Installation
 
@@ -322,13 +336,7 @@ https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
 #### Commands
 
 Just run the script and follow the interface! Videos downloaded in same folder as the script.
-* ### Server And Client
-It is simple client server communication script, will add more functionality in future.
-```bash
-cd server_client
-python client.py
-python server.py
-```
+
 * ### YouTube Bot
 This is a simple python script that increases your video count/ views.
 Log out from all google accounts and run this.
@@ -341,39 +349,6 @@ python youtube-bot-linux.py
 python youtube-bot-windows.py
 ```
 
-* ### Air Quality Script
-    - This script renders the air quality from the location of the user
-    - The location is fetched using the user's IP address
-
-    - This script requires a key from WAQI. 
-    - It is free and can be fetched from http://aqicn.org/data-platform/token/#/
-    #### Usage Instructions
-    ```python
-    python air-quality.py token
-    ```
-
-#### NOTE:  
-In case your browser stoped working delete/comment the following line in the script.  
-#### _Linux_
- `os.system(" killall -9 " + brow)`
-#### _Windows_
- `os.system("TASKKILL /F /IM " + brow + ".exe")`
-
-* ### Group files by type
-    - Group files by their extensions
-    - Files are moved into folders with extension names
-
-    #### Usage Instructions
-    ```python
-    python group_file_by_type.py 'C:\\test\\products'
-    ```
-
-## Release History
-
-* 0.0.1
-    * Work in progress
-
-
 ## Meta
 
 Khushal Sharma – [@Khushal](https://twitter.com/herkuch) – sharmakhushal78@gmail.com
@@ -381,7 +356,6 @@ Khushal Sharma – [@Khushal](https://twitter.com/herkuch) – sharmakhushal78@g
 Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/Logan1x/Python-Scripts/blob/master/LICENSE) for more information.
 
 [Logan1x](https://github.com/Logan1x/)
-
 
 
 ## Contributing
@@ -393,9 +367,11 @@ Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/
 5. Create a new Pull Request
 6. Add your name with a link to your profile in the contributors list.
 
+
 ## Contributors
 
 The following people helped in creating the above content.
+
 * <a href="https://github.com/Logan1x" target="_blank">Khushal Sharma</a>
 * <a href="https://github.com/KayvanMazaheri" target="_blank">Kayvan Mazaheri</a>
 * <a href="https://github.com/kalbhor" target="_blank">Lakshay Kalbhor</a>
@@ -413,6 +389,7 @@ The following people helped in creating the above content.
 * <a href="https://github.com/ehnydeel" target="_blank">Andreas K.</a>
 * <a href="https://github.com/zinuzoid" target="_blank">Jetsada Machom</a>
 * <a href="https://github.com/pr0me" target="_blank">Lukas S.</a>
+* <a href="https://github.com/Rafi993" target="_blank">Rafi993</a>
 * <a href="https://github.com/iyanuashiri" target="_blank">Iyanu Ashiri</a>
 * <a href="https://github.com/niharikakrishnan">Niharika Krishnan</a>
 * <a href="https://github.com/lionasp" target="_blank">Pugach Vitalii</a>
