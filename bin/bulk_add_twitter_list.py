@@ -19,4 +19,5 @@ screen_name = screen_name.split(',')
 for i in range(len(screen_name))[::chunk_size]:
     # split to chunk size
     sn = ','.join(screen_name[i:i+chunk_size])
-    tw.lists.members.create_all(owner_screen_name='your_screen_name_here', slug='your_list', screen_name=sn)
+    tw.lists.members.create_all(
+        owner_screen_name='your_screen_name_here', slug='your_list', screen_name=sn)
