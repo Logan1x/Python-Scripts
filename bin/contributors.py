@@ -15,7 +15,7 @@ def generate_markdown(data):
         :param data: Array of dicts with key login and avatar
     """
     basewidth = 50
-    markdown =  ''
+    markdown = ''
     for author in data:
         response = requests.get(author.get('avatar'), stream=True)
         with open('temp.png', 'wb') as out_file:
@@ -43,15 +43,15 @@ def get_data(url):
     }
     response = requests.get(urljoin(url, 'graphs/contributors-data'), headers=headers)
     if response.status_code == 200:
-        data = [ author.get('author','') for author in response.json()]
+        data = [author.get('author', '') for author in response.json()]
         return data
-    else: 
+    else:
         print('Check if the url is right and if you have network connection')
         sys.exit(0)
 
 
 repo_url = sys.argv[1]
-if repo_url == None or len(repo_url) == 0:
+if repo_url is None or len(repo_url) == 0:
     print('Please enter valid url')
 else:
     generate_markdown((get_data(repo_url)))
