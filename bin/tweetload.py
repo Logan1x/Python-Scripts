@@ -15,9 +15,9 @@ def init_twitter():
         data = json.load(data_file)
 
     api = twitter.Api(consumer_key=data["consumer_key"],
-                      consumer_secret=data["consumer_secret"],
-                      access_token_key=data["access_token_key"],
-                      access_token_secret=data["access_token_secret"])
+                  consumer_secret=data["consumer_secret"],
+                  access_token_key=data["access_token_key"],
+                  access_token_secret=data["access_token_secret"])
 
     return api
 
@@ -33,8 +33,7 @@ def main():
     tweets = api.GetUserTimeline(screen_name=user, count=200)
     curr_id = tweets[-1].id
     for i in range(19):
-        tweets = tweets + \
-            api.GetUserTimeline(screen_name=user, count=200, max_id=curr_id)
+        tweets = tweets + api.GetUserTimeline(screen_name=user, count=200, max_id=curr_id)
         curr_id = tweets[-1].id
 
     print("Tweets: " + str(len(tweets)))
@@ -52,6 +51,8 @@ def main():
             tweet_cont = tweet_cont.replace('RT: ', '')
             tweet_cont = tweet_cont.replace('RT', '')
             file_o.write(tweet_cont + '\n')
+
+
 
 
 if __name__ == "__main__":

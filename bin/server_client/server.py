@@ -3,9 +3,9 @@ import sys
 PORT_NUMBER = 5000
 SIZE = 1024
 
-hostName = gethostbyname('localhost')
+hostName = gethostbyname( 'localhost' )
 
-mySocket = socket(SOCK_DGRAM)
+mySocket = socket( SOCK_DGRAM )
 mySocket.bind((hostName, PORT_NUMBER))
 mySocket.listen(1)
 while True:

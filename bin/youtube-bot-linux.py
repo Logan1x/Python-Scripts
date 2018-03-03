@@ -1,6 +1,4 @@
-import time
-import webbrowser
-import os
+import time,webbrowser,os
 
 url = str(input("Enter your video url in ->\"url here \"<-  : "))
 n = input("Enter refresh rate(seconds) : ")

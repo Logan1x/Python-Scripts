@@ -12,3 +12,4 @@ html_text = response.read().decode('UTF-8')
 text = html.fromstring(html_text).text_content()
 
 print(text)
+

@@ -1,4 +1,4 @@
-import random  # random is a python built-in module
+import random  #  random is a python built-in module
 
 
 def roll_dice():
