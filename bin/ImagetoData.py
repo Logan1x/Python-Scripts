@@ -1,4 +1,5 @@
-import os, os.path
+import os
+import os.path
 import numpy as np
 from PIL import Image
 
@@ -16,5 +17,6 @@ if __name__ == '__main__':
 
         return np.array(imgs)
 
-    # converts all images in a particular directory to a 64*64*3 (3 for the rgb value of image) dimension vector
+    # converts all images in a particular directory to a 64*64*3
+    # (3 for the rgb value of image) dimension vector
     # use - in machine learning and image processing

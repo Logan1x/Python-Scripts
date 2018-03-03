@@ -359,6 +359,14 @@ In case your browser stoped working delete/comment the following line in the scr
 #### _Windows_
  `os.system("TASKKILL /F /IM " + brow + ".exe")`
 
+* ### Group files by type
+    - Group files by their extensions
+    - Files are moved into folders with extension names
+
+    #### Usage Instructions
+    ```python
+    python group_file_by_type.py 'C:\\test\\products'
+    ```
 
 ## Release History
 

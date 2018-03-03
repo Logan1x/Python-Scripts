@@ -5,29 +5,29 @@ import requests
 # Master dictionary--will be expanding in future iterations of the project
 # version 1 of vid.py
 master = {
- 'Audio': {
-     'format': 'bestaudio/best',
-     'noplaylist': True,
-     'postprocessors': [{
-        'key': 'FFmpegExtractAudio',
-        'preferredcodec': 'mp3',
-        'preferredquality': '192',
-         }]
-         },
- 'Video': {
-     'format': 'bestvideo+bestaudio/best',
-     'noplaylist': True,
-     'postprocessors': [{
-        'key': 'FFmpegVideoConvertor',
-         'preferedformat': 'mp4',
-         # 'preferredquality': '137',
-     }]
- },
- 'list': {
-    'listsubtitles': True
+    'Audio': {
+        'format': 'bestaudio/best',
+        'noplaylist': True,
+        'postprocessors': [{
+            'key': 'FFmpegExtractAudio',
+            'preferredcodec': 'mp3',
+            'preferredquality': '192',
+        }]
     },
- 'listformat': {
-    'lisformats': True
+    'Video': {
+        'format': 'bestvideo+bestaudio/best',
+        'noplaylist': True,
+        'postprocessors': [{
+            'key': 'FFmpegVideoConvertor',
+            'preferedformat': 'mp4',
+            # 'preferredquality': '137',
+        }]
+    },
+    'list': {
+        'listsubtitles': True
+    },
+    'listformat': {
+        'lisformats': True
     }
 }
 
@@ -69,7 +69,7 @@ def check(link):
         return False
 
 
-def download(link,data):
+def download(link, data):
     try:
         with youtube_dl.YoutubeDL(data) as ydl:
             ydl.download([link])
@@ -87,21 +87,22 @@ def main():
                 print("2.Download a Video playlist")
                 print("3.Download a Single Audio")
                 print("4.Download a single video file")
-                ch=int(input("Enter your choice: "))
-                if ch in [1,2,3,4]:
+                ch = int(input("Enter your choice: "))
+                if ch in [1, 2, 3, 4]:
                     if ch == 1:
                         master['Audio']['noplaylist'] = False
-                        download(link,master['Audio'])
+                        download(link, master['Audio'])
                     elif ch == 2:
                         master['Video']['noplaylist'] = False
-                        download(link,master['Video'])
+                        download(link, master['Video'])
                     elif ch == 4:
-                        download(link,master['Video'])
+                        download(link, master['Video'])
                     else:
-                        download(link,master['Audio'])
+                        download(link, master['Audio'])
                 else:
                     print("Bad choice")
                 ch = str(input("do you want to continue?(Y/n)"))
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()
