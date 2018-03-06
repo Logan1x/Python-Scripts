@@ -29,16 +29,14 @@ def decrypt(n, ciphertext):
     return result
 
 
-print("Encrypt or decrypt?")
-ans = input()
+print("***** CAESAR CIPHER *****")
+ans = input("Encrypt or Decrypt ? ")
 ans = ans.lower()
-print("Enter message")
-k = input()
-print("Enter rotation number")
-nn = int(input())
+k = input("Enter message : ")
+nn = int(input("Enter number of rotation : "))
 if ans == 'encrypt':
     ret = encrypt(nn, k)
-    print('Encrytped: %s' % ret)
+    print('Encrytped message: %s' % ret)
 else:
     ret = decrypt(nn, k)
-    print('Decrytped: %s' % ret)
+    print('Decrytped message: %s' % ret)
