@@ -1,0 +1,239 @@
+body{
+    font-family: sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+input::-webkit-input-placeholder{
+    font-family: sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 12px;
+}
+
+input::-moz-placeholder{
+    font-family: sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 12px;
+}
+input:-ms-input-placeholder{
+    font-family: sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 12px;
+}
+input:-moz-placeholder{
+    font-family: sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 12px;
+}
+
+
+header{
+    background:#263238;
+    min-height: 50px;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+}
+
+.title, .sub_title{
+    color: #fff;
+    display: inline-block;
+    font-weight: 300;
+    padding-top: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.title:hover, .sub_title:hover{
+    transition: all 0.5s;
+    color: #546E7A;
+}
+
+.sub_title{
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.pull-right{
+    float: right;
+    padding-right: 10px;
+}
+
+.container{
+    padding:0px 20px;
+    padding-top: 30px;
+}
+
+.container-fluid{
+    margin: 0px;
+}
+
+.sidebar{
+    width: 300px;
+    border: 1px solid #f2f2f2;
+    display: inline-block;
+    position: fixed;
+    top: 50px;
+    bottom: 0px;
+}
+.details{
+    display: inline-block;
+    margin-top: 52px;
+    /* height: 20vh; */
+    width: 77%;
+    margin-left: 300px;
+    margin-bottom: 15px;
+}
+
+.search{
+    padding: 15px 10px;
+    padding-bottom: 0px;
+    width: 238px;
+    position: relative;
+}
+
+.search input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+.search input:focus, .search input:hover{
+    border-bottom: 1px solid #263238;
+}
+
+.search img{
+    height: 13px;
+    position: absolute;
+    right: 14px;
+    top: 22px;
+}
+
+p{
+    line-height: 1.7rem;
+}
+
+.content-block{
+    margin-bottom: 50px;
+}
+
+.contribs img{
+    cursor: pointer;
+    padding: 5px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.contribs img:hover{
+    transition: all 0.5s;
+    border: 6px solid #263238;
+}
+
+.scripts-list{
+    padding-left: 0px;
+    height: calc(100vh - 112px);
+    overflow: auto;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.scripts-list li{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    letter-spacing: 0.1rem;
+    width: 88%;
+}
+
+.scripts-list li a {
+    color: #263238;
+}
+
+.scripts-list li:hover a{
+    color: #fff
+} 
+
+.scripts-list li:hover{
+    transition: all 0.1s;
+    background: #263238;
+    color: #fff
+}
+
+.scripts-list li span.tag{
+    float: right;
+    background: #263238;
+    color: #fff;
+    padding: 5px;
+    position: relative;
+    top: -3px;
+}
+
+.scripts-list li:hover > span.tag{
+    background: #fff;
+    color: #263238;
+    cursor: pointer;
+}
+
+.scripts-list li span.searchText{
+    display: inline-block;
+    width: 70%;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+
+/* Utils */
+@media screen and (max-width: 480px){
+    .hidden-xs{
+    display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .details{
+        margin-left: 0px;
+    }
+}
+
+.contentDiv{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.contentDiv h3{
+    margin: 0px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.contentDiv p{
+    letter-spacing: 0.1rem;
+}
+
+.contentDiv code{
+    background: #f2f2f2;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+
+.contentDiv a{
+    color: #546E7A;
+}
+
+.contentDiv a:hover{
+    color: #000000;
+}
+
+.usage{
+    display: block;
+    padding: 15px 22px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+}

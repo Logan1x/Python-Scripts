@@ -1,0 +1,150 @@
+[{
+  
+  "name": "Air Quality Script",
+  "description": "<ul><li>This script renders the air quality from the location of the user</li><li>The location is fetched using the user's IP address</li><li>This script requires a key from WAQI</li><li>It is free and can be fetched from <a href='http://aqicn.org/data-platform/token/#/'>http://aqicn.org/data-platform/token/#/</a></li></ul><b>Release History</b></br><b>0.0.1</b> - Work in progress",
+  "usage": "python air-quality.py token",
+  "type": "data"
+},{
+    "name": "Approximating pi",
+    "description": "This script is useful to show a way to approximate the value of pi using a Monte Carlo method. It is also optimized using the <code>@jit</code> (just-in-time) decorator from the <a href='https://numba.pydata.org'>numba</a> library.",
+    "type": "data"
+},{
+    "name": "Blog Reader",
+    "description": "Blog Reader is the terminal reader that scrapes the article from <a href='http://planet.dgplug.org'>planet dgplug</a> and displays it on the terminal.It seprates the content accrding to the screen size.",
+    "usage": "python Blog_reader.py",
+    "type": "social"
+},{
+    "name": "Bulk add users to Twitter list",
+    "description": "Simple script helps you mass add users to your twitter list to follow (Ex: Bitcoin/Altcoins official account, news, traders...)<ul><li>Prepare list screen names</li><li>Setup your app and get an access token</li></ul>",
+    "usage": "pip install twitter</br>python bulk_add_twitter_list.py",
+    "type": "social"
+},{
+    "name": "Caesar Cipher",
+    "description": "Encrypts or Decrypts any message you want, simply enter the message and the rotation number",
+    "usage": "python caesar_cipher.py",
+    "type": "crypto"
+},{
+    "name": "Contributor list",
+    "description": "For a given repo generate contribute.md with images in same size like the one in this README.md. you may need to install packages like PIL@1.1.7 and requests if not installed",
+    "usage": "python contributors.py https://github.com/Logan1x/Python-Scripts/",
+    "type": "FOSS"
+},{
+    "name": "End To End Encryption",
+    "description": "It is a simple program to implement and understand the basic of end_to_end encryption. Here i am using caesar cipher to encrpt nbut in reality they Use algotihms lile SHA-1, RSA etc.",
+    "usage": "python end_to_end.py",
+    "type": "crypto"
+},{
+    "name": "Expense Manager",
+    "description": "Simple GUI program which helps you calculate your expenses, monitor them just through mouse clicks. All you have to do is run the script and choose an option from the menu which will displayed when you run the script. Enter Your Expenses as eg: 'Biscuits Rs 15' ' rs ' ignore the quotes.",
+    "usage": "python expense_manger.py",
+    "type": "$"
+},{
+    "name": "Facebook Auto Post",
+    "description": "This is python script that log in into facebook and post the status.You can see live execution of this script <a href='https://www.youtube.com/watch?v=YES16mVB0lQ'>here</a>.",
+    "usage": "pip install -r facebook-auto-post.requirements.txt</br>python facebook-auto-post.py",
+    "type": "social"
+},{
+    "name": "Find Large Files",
+    "description": "Searches a file location and subdirectories for files larger than a given size. Useful for phones which might hide files in FileExplorer, but allow use as flash memory. Directly prints results if run directly. May also be imported, yielding results one by one.",
+    "type": "util"
+},{
+    "name": "FTP Download File",
+    "description": "A simple application to download a file via FTP with the given remote and local path Parameters:<ul><li>hh hostname</li><li>u username</li><li>p password</li><li>rd remote directory</li><li>ld local directory</li><ul>",
+    "usage": "python ftp_download_file.py</br>## This script fetch html response from the provided url and parse xml tag to get only text content and print out.</br>python fetch_html.py https://github.com",
+    "type": "util"
+},{
+    "name": "Get External IP",
+    "description": "Gets the external ip-address from the current machine and prints it to the console",
+    "usage": "python getExternalIp.py",
+    "type": "util"
+},{
+    "name": "Group files by type",
+    "description": "<ul><li>Group files by their extensions</li><li>Files are moved into folders with extension names</li><ul>",
+    "usage": "python group_file_by_type.py 'C:\\test\\products'",
+    "type": "util"
+},{
+    "name": "Handy offline dictionary",
+    "description": "A tiny offline dictionary app based on nltk wordnet and pyqt5",
+    "usage": "cd dictionary</br>python app.py",
+    "type": "util"
+},{
+    "name": "Highcharts loader",
+    "description": "It is a simple program that can load charts from highcharts.After loading chart you can save it to file or embed it into your html page in base64 format.Don't forget install <code>requests</code> library from <code>highcharts_loader_requirements.txt</code>",
+    "usage": "from highcharts_loader import ChartLoader, Options</br>options = Options(from_file='options.json')</br>chart = ChartLoader(options)</br>chart.save_to_file('result.png')</br>// options.json example:",
+    "json": "{'chart': {'type': 'bar'},'title': {'text': 'Which channels are driving engagement?'},'xAxis': {'categories': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun','Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']},'series': [{'data': [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]}]}",
+    "type": "data"
+},{
+    "name": "Image Encoder",
+    "description": "It is a simple program to encode and decode images, which helps to reduce and handle images on server, as it is convertedto base64 address.",
+    "usage": "python image_encoder.py",
+    "type": "images"
+},{
+    "name": "Integrate to find area of a graph",
+    "description": "The script takes a given graph along with the range within which the area is to be calculated. It then calculates the area using two methods, the Simpson method and the Trapezoid method and displays the results on a graph.",
+    "usage": "python integrate-graph.py",
+    "type": "data"
+},{
+    "name": "Locate Me",
+    "description": "Run this script and it will locate you.</br>This will tell you your<ul><li>City</li><li>Region</li><li>Country</li><li>Latitude & Longitude</li><li>Your Internet Service Provider</li></ul>This uses <a href='http://checkip.dyndns.com'>Checkip</a> and <a href='https://ipinfo.io/developers'>ipinfo.io</a>.",
+    "usage": "python locate-me.py",
+    "type": "util"
+},{
+    "name": "Meme Density",
+    "description": "This script tells you the amount of memes in your facebook feed",
+    "usage": "pip install memedensity</br>memedensity",
+    "type": "social"
+},{
+    "name": "Mi Community Bot",
+    "description": "This python script uses selenium module in python to automate the thread posting.</br>You can see live execution of this script <a href='https://www.youtube.com/watch?v=gWRF7-_xhx0'>here</a>.</br>If you want to understand this code you can visit <a href='https://l0gan1x.quora.com/1-Python-Thread-Posting-Bot-Using-selenium-module?srid=Ic2Y'>here.</a>",
+    "usage": "pip install -r mi-community-bot.requirements.txt</br>python mi-community-bot.py",
+    "type": "social"
+},{
+    "name": "Missionaires And Cannibals Problem",
+    "description": "It is a simple program to mimic Missionaries And Cannibals River Crossing Problem.",
+    "usage": "python missionaries_and_cannibals_problem.py",
+    "type": "misc"
+},{
+    "name": "Password Strength Checker",
+    "description": "This code checks for your password strength. For the right password, password must contain mixture of an upper case letters, an digit (including 0-9), and a special characters with lower case letters.",
+    "usage": "python password-strength-checker.py",
+    "type": "util"
+},{
+    "name": "Plotting a function",
+    "description": "This script contains an example of plotting a function using <code>matplotlib</code>. Feel free to modify the value of <code>y</code> to obtain different functions that depend on <code>x</code>.",
+    "type": "data"
+},{
+    "name": "Server And Client",
+    "description": "It is simple client server communication script, will add more functionality in future.",
+    "usage": "cd server_client</br>python client.py</br>python server.py",
+    "type": "misc"
+},{
+    "name": "Tweetload",
+    "description": "Download latest tweets (default: up to 4000) from a specific twitter user. The script will create a file with one tweet per line, stripped from mentions, hashtags and links. For that to work, create a json file with your twitter credentials (see source) and define the twitter user in source code.",
+    "usage": "python3 tweetload.py",
+    "type": "social"
+},{
+    "name": "Twitter_retweet_bot",
+    "description": "It is a simple script that retweets any hashtag provided in it.",
+    "usage": "python twitter_retweet_bot.py",
+    "type": "social"
+},{
+    "name": "Twitter Sentiment Analysis",
+    "description": "A python script that goes through the twitter feeds and calculates the sentiment of the users on the topic of Demonetization in India. Sentiments are calculated to be positive, negative or neutral. Various other analyses are represented using graphs.",
+    "usage": "pip install -r analyseTweets-requirements.txt</br>python analyseTweets.py",
+    "type": "social"
+},{
+   "name": "URL Shortener",
+   "description": "This is python script that shortens any URL provided to it.",
+   "usage": "# Takes multiple inputs and returns shortened URL for both</br>python shortener.py url1 url2</br>#Stores shortened URLs in a file</br>python shortener.py url1 url2 > file.txt",
+   "type": "util"
+},{
+    "name": "Video-downloader v1.1",
+    "description": "This file allows the user to download videos off of the web. as of version 1 the user is able to download highquality videos as a playlist or single file as well as audio files from the supported websites given <a href='http://rg3.github.io/youtube-dl/supportedsites.html'>here</a> are supported.More features will be added in the future iterations of the project. a simple video downloader using youtube-dl Library, a starter script for making use of youtube-dl.</br><b>Requirements</b><ul><li>You will need to install youtube_dl<ul><li>This can be installed using pip on windows</li><li>if you do not know how to use pip please read the installation instructions</li></ul></li>   <li>requests library<ul><li>can be downloaded using pip on windows and respective package managers on different operating systems</li></ul></li><li>ffmpeg in order to convert the downloaded files to the right format</li><ul><b>Installation:</b> clone this repo and run python <code>vid.py</code> script! assuming you already have the other requirements",
+    "type": "util"
+},{
+    "name": "YouTube Bot",
+    "description": "This is a simple python script that increases your video count/ views. Log out from all google accounts and run this.",
+    "usage": "# For Linux Users</br>python youtube-bot-linux.py</br># For Windows Users</br>python youtube-bot-windows.py",
+    "note": "In case your browser stoped working delete/comment the following line in the script.</br>Linux</br><code>os.system(' killall -9 ' + brow)</code></br>Windows</br><code>os.system('TASKKILL /F /IM ' + brow + '.exe')</code>",
+    "type": "social"
+}]
