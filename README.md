@@ -1,7 +1,7 @@
 ﻿# [Python Scripts](https://logan1x.github.io/Python-Scripts/)
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](http://www.logan1x.me/Python-Scripts/)
 > This Repo is a collection of Various python scripts.
 
 In this repo there are different kinds of python scripts for their respective uses. These all are open sourced and you can use them in any form for free.
