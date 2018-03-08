@@ -372,10 +372,11 @@ Distributed under the MIT LICENSE license. See [``LICENSE``](https://github.com/
 
 1. Fork it (<https://github.com/Logan1x/Python-Scripts/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-6. Add your name with a link to your profile in the contributors list.
+3. Add your docs in `docs/data.json` file
+4. Commit your changes (`git commit -am 'Add some fooBar'`)
+5. Push to the branch (`git push origin feature/fooBar`)
+6. Create a new Pull Request
+7. Add your name with a link to your profile in the contributors list
 
 
 ## Contributors
