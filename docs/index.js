@@ -6,7 +6,12 @@ const populateSearch = data =>{
         let li = document.createElement('li')
 
         let a = document.createElement('a')
-        a.href = '#'+ i + '_details'
+        // a.href = '#'+ i + '_details'
+        // a.onclick = scrollTo('#'+ i + '_details', )
+        a.addEventListener('click', ()=>{
+            let elem = document.getElementById(i + '_details').offsetTop - 52
+            scrollTo(document.documentElement, elem, 500)
+        })
 
         let type = document.createElement('span')
         let searchText = document.createElement('span')
@@ -33,10 +38,10 @@ const populateDetails = data =>{
 
      let contentDiv = document.createElement('div');
      contentDiv.className = 'contentDiv'
+     contentDiv.id = i + '_details'
 
      let heading = document.createElement('h3')
      heading.innerText = '## '+ elem.name
-     heading.id = i + '_details';
 
      let description = document.createElement('p')
      description.innerHTML = elem.description
@@ -54,6 +59,19 @@ const populateDetails = data =>{
     }
  })
 
+}
+
+
+const scrollTo = (element, to, duration)=> {
+    if (duration <= 0) return;
+    const difference = to - element.scrollTop;
+    const perTick = difference / duration * 10;
+
+    setTimeout(()=> {
+        element.scrollTop = element.scrollTop + perTick;
+        if (element.scrollTop === to) return;
+        scrollTo(element, to, duration - 10);
+    }, 10);
 }
 
 document.onreadystatechange = () => {
