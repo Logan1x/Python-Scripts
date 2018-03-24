@@ -30,13 +30,6 @@ cd Python-Scripts/bin
     ```python
     python air-quality.py token
     ```
-
-## Release History
-
-* 0.0.1
-    * Work in progress
-
-
 * ### Approximating *pi*
 
 This script is useful to show a way to approximate the value of pi using a Monte Carlo method. It is also optimized using the `@jit` (*just-in-time*) decorator from the [numba](https://numba.pydata.org/) library.
@@ -358,6 +351,11 @@ In case your browser stoped working delete/comment the following line in the scr
  `os.system(" killall -9 " + brow)`
 #### _Windows_
  `os.system("TASKKILL /F /IM " + brow + ".exe")`
+
+## Release History
+
+* 0.0.1
+    * Work in progress
 
 ## Meta
 
