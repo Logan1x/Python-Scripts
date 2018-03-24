@@ -357,6 +357,18 @@ In case your browser stoped working delete/comment the following line in the scr
 * 0.0.1
     * Work in progress
 
+
+### Markdown to presentation
+You can convert markdown in a directory into a **.html** file for presentation using reveal.js
+
+``` 
+python reveal-md.py -d folder_name -c config
+
+```
+
+### Note
+the config is optional. You can specify with keys as here https://github.com/hakimel/reveal.js/#configuration in a json file. Reveal.js cdn link is included in generated html you may need to download them if you want to use the presentation offline
+
 ## Meta
 
 Khushal Sharma – [@Khushal](https://twitter.com/herkuch) – sharmakhushal78@gmail.com

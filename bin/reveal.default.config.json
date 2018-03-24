@@ -1,0 +1,14 @@
+{
+  "controls": true,
+  "controlsLayout": "bottom-right",
+  "controlsBackArrows": "faded",
+	"progress": true,
+	"slideNumber": true,
+  "history": true,
+  "keyboard": true,
+	"overview": true,
+	"center": true,
+	"touch": true,
+  "mouseWheel": true,
+  "hideAddressBar": true
+}
