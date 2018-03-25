@@ -5,7 +5,7 @@ import argparse
 from os import listdir
 from os.path import isfile, join, isdir
 
-
+# Parsing command line args
 parser = argparse.ArgumentParser(
     description='Convert your markdown to presentation')
 
@@ -24,12 +24,11 @@ if args.config:
     except:
         print('Please check if config file exist or it is a json')
 
-
+# Read all files in the directory
 if args.dir:
     if isdir(args.dir[0]):
         file_names = [file for file in listdir(
             args.dir[0]) if isfile(join(args.dir[0], file))]
-        print(file_names)
 
         all_file_content = ""
         html = """
@@ -49,7 +48,6 @@ if args.dir:
             all_file_content = '<section data-markdown><textarea data-template>' + \
                 data + '</textarea></section>'
 
-
             html += all_file_content
 
         html += """</div>
@@ -61,9 +59,8 @@ if args.dir:
                     </body>
                     </html>
                     """
-        # print(html)
 
-        html_file = open('output.html','w')
+        html_file = open('output.html', 'w')
         html_file.write(html)
         html_file.close()
     else:
