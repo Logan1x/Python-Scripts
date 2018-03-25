@@ -152,5 +152,5 @@
     "description": "You can convert markdown in a directory into a **.html** file for presentation using reveal.js",
     "usage": "python reveal-md.py -d folder_name -c config",
     "note": "the config is optional. You can specify with keys as here https://github.com/hakimel/reveal.js/#configuration in a json file. Reveal.js cdn link is included in generated html you may need to download them if you want to use the presentation offline",
-    "tag": "util"
+    "type": "util"
     }]
