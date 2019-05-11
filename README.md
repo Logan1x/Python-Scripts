@@ -80,7 +80,7 @@ you may need to install packages like PIL@1.1.7 and requests if not installed
 
 * ### End To End Encryption
 It is a simple program to implement and understand the basic of end_to_end encryption.
-Here I am using caesar cipher to encrpt but in reality they use algotihms lile SHA-1, RSA etc.
+Here I am using caesar cipher to encrypt but in reality they use algotihms lile SHA-1, RSA etc.
 ```bash
 python end_to_end.py
 ```
@@ -373,7 +373,7 @@ python reveal-md.py -d folder_name -c config
 ```
 
 ### Note
-the config is optional. You can specify with keys as here https://github.com/hakimel/reveal.js/#configuration in a json file. Reveal.js cdn link is included in generated html you may need to download them if you want to use the presentation offline
+The config is optional. You can specify with keys as here https://github.com/hakimel/reveal.js/#configuration in a json file. Reveal.js cdn link is included in generated html you may need to download them if you want to use the presentation offline
 
 ## Meta
 
