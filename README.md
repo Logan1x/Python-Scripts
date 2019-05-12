@@ -43,7 +43,7 @@ This script is useful to show a way to approximate the value of pi using a Monte
 
 Blog Reader is the terminal reader that scrapes the article from [planet dgplug](http://planet.dgplug.org/) and displays it on the terminal.
 
-It seprates the content accrding to the screen size.
+It separates the content accrding to the screen size.
 
 ```bash
 python Blog_reader.py
@@ -80,7 +80,7 @@ you may need to install packages like PIL@1.1.7 and requests if not installed
 
 * ### End To End Encryption
 It is a simple program to implement and understand the basic of end_to_end encryption.
-Here i am using caesar cipher to encrpt nbut in reality they Use algotihms lile SHA-1, RSA etc.
+Here I am using caesar cipher to encrypt but in reality they use algotihms lile SHA-1, RSA etc.
 ```bash
 python end_to_end.py
 ```
@@ -124,6 +124,7 @@ Parameters:
  * -ld local directory
 ```bash
 python ftp_download_file.py
+```
 
 * ### Fetch HTML
 This script fetch html response from the provided url and parse xml tag to get only text content and print out.
@@ -186,7 +187,7 @@ options.json example:
 ```
 
 * ### Image Encoder
-It is a simple program to encode and decode images, which helps to reduce and handle images on server, as it is convertedto base64 address.
+It is a simple program to encode and decode images, which helps to reduce and handle images on server, as it is converted to base64 address.
 ```bash
 python image_encoder.py
 ```
@@ -320,7 +321,7 @@ of youtube-dl.
 
 #### Installation
 
-clone this repo and run `python vid.py` script!
+Clone this repo and run `python vid.py` script!
 assuming you already have the other requirements.
 #### FFmpeg
 * ### Bulk add users to Twitter list
@@ -372,7 +373,7 @@ python reveal-md.py -d folder_name -c config
 ```
 
 ### Note
-the config is optional. You can specify with keys as here https://github.com/hakimel/reveal.js/#configuration in a json file. Reveal.js cdn link is included in generated html you may need to download them if you want to use the presentation offline
+The config is optional. You can specify with keys as here https://github.com/hakimel/reveal.js/#configuration in a json file. Reveal.js cdn link is included in generated html you may need to download them if you want to use the presentation offline
 
 ## Meta
 
