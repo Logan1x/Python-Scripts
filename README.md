@@ -134,7 +134,7 @@ python fetch_html.py https://github.com
 ``````
 
 * ### Get External IP
-Gets the external ip-address from the current machine and prints it to the console
+Gets the external IP-Address from the current machine and prints it to the console
 ```bash
 python getExternalIp.py
 ```
@@ -314,10 +314,10 @@ of youtube-dl.
 #### Requirements
 * You will need to install youtube_dl
   * This can be installed using pip on windows,
-  * if you do not know how to use pip please read the installation instructions
-* requests library
-  * can be downloaded using pip on windows and respective package managers on different operating systems.
-* ffmpeg in order to convert the downloaded files to the right format
+  * If you do not know how to use pip please read the installation instructions
+  * Requests library
+  * Can be downloaded using pip on windows and respective package managers on different operating systems.
+  * ffmpeg in order to convert the downloaded files to the right format
 
 #### Installation
 
