@@ -5,6 +5,11 @@
   "usage": "python air-quality.py token",
   "type": "data"
 },{
+    "name": "A* Pathfinding Algorithm with GUI",
+    "description": "It will find the shortes distance between two nodes, and it's implemented with a GUI.",
+    "usage": "cd A-Star-GUI -> python AStarGUI.py ",
+    "type": "data"
+},{
     "name": "Approximating pi",
     "description": "This script is useful to show a way to approximate the value of pi using a Monte Carlo method. It is also optimized using the <code>@jit</code> (just-in-time) decorator from the <a href='https://numba.pydata.org'>numba</a> library.",
     "type": "data"
