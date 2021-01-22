@@ -4,9 +4,6 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](http://www.logan1x.me/Python-Scripts/)
 
-
-[![Join the chat at https://gitter.im/Python_Scripts/Lobby](https://badges.gitter.im/Python_Scripts/Lobby.svg)](https://gitter.im/Python_Scripts/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 > This Repo is a collection of Various python scripts.
 
 In this repo there are different kinds of python scripts for their respective uses. These all are open sourced and you can use them in any form for free.
