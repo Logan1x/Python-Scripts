@@ -14,6 +14,7 @@ driver = webdriver.Chrome(executable_path="chromedriver.exe")
 
 '''
 Using the CSS_selector we are selecting input and checking wheather it's dispalyed properly or not 
+Executed : 1)is_displayed()  2)is_enabled()
 
 '''
 driver.get("https://www.google.com/")
@@ -22,3 +23,4 @@ element = driver.find_element(By.CSS_SELECTOR,"input[title='Search']")
  
 print(element.is_displayed())
 print(element.is_enabled())
+

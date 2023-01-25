@@ -13,10 +13,11 @@ from selenium.webdriver.support import expected_conditions as EC
 driver = webdriver.Chrome(executable_path="chromedriver.exe")
 driver.get("https://mohitpeshwani.github.io/crazyprogrammer/")
 try:
+    # wait 10 extra seconds before looking for element until it found my website image
     element = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, "img[src='./images/man12.png']"))
     )
-    print(element.is_displayed())
+    print(element.is_displayed()) # should return true
     print("Demontrating the explicit wait ")
 finally:
     driver.quit()

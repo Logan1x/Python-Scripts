@@ -2,7 +2,7 @@
 Input Box And Text Box fucntionality using selenium driver
 
 (i) send_keys() to add the message or input into input_box/textarea
-
+(ii) submit button to submit.
 '''
 from selenium import webdriver
 from selenium.webdriver.common.by import By
