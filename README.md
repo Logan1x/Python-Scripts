@@ -400,7 +400,5 @@ The following people helped in creating the above content.
 
 ### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
 
-### If you like the project give a star  [<img src="Selection_008.png" alt="Star button" align="top">](https://github.com/Logan1x/Python-Scripts/stargazers)
-
 
 [`Back to Top`](https://github.com/Logan1x/Python-Scripts#python-scripts)
