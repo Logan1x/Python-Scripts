@@ -1,3 +1,5 @@
+#In development
+
 import subprocess
 import sys
 
@@ -27,6 +29,8 @@ def main():
     autom_sudoapt("sudo apt install gnome-tweaks -y")
     
     autom_sudoapt("sudo apt install gnome-shell-extensions -y")
+    
+    autom_sudoapt("sudo apt install gnome-terminal -y")
     
     print("Atualização e instalação concluídos!")
 
