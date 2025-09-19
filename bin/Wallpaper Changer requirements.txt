@@ -1,5 +1,5 @@
 praw==7.1.0
-requests==2.20.0
+requests==2.31.0
 config==0.5.0.post0
 schedule==0.6.0
 mmh3==2.5.1
